@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Andrew Walbert | AI Career Agent & Talent Intelligence Portfolio</title>
+<meta name="description" content="Andrew Walbert's AI Career Agent and Talent Intelligence Portfolio: a living professional persona for GTM recruiting, sourcing, AI workflows, network intelligence, and career positioning.">
+<meta name="theme-color" content="#111617">
+<meta property="og:title" content="Andrew Walbert | AI Career Agent & Talent Intelligence Portfolio">
+<meta property="og:description" content="A living AI-powered professional portfolio for GTM recruiting, talent intelligence, LinkedIn strategy, network systems, and AI-assisted career positioning.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.smtc64.com/">
+<link rel="canonical" href="https://www.smtc64.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #111617;
+  --bg2: #1a2022;
+  --surface: #20282a;
+  --border: rgba(255,255,255,0.07);
+  --border-hover: rgba(255,255,255,0.15);
+  --text: #f1eee7;
+  --muted: #9ca7a4;
+  --accent: #2d8b7f;
+  --accent2: #5f426d;
+  --plum: #8f6aa3;
+  --rust: #b46a4c;
+  --gold: #d5b46c;
+  --gold-muted: rgba(213,180,108,0.14);
+  --paper: #f4efe5;
+  --ink: #171b1c;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:'DM Sans',system-ui,sans-serif;background:var(--bg);color:var(--text);font-size:16px;line-height:1.7;font-weight:300;-webkit-font-smoothing:antialiased;overflow-x:hidden;}
+nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:20px 56px;background:rgba(17,22,23,0.86);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border-bottom:1px solid var(--border);}
+.nav-logo{font-family:'Cormorant Garamond',serif;font-size:1.15rem;font-weight:500;letter-spacing:0.1em;color:var(--text);text-decoration:none;}
+.nav-actions{display:flex;gap:12px;align-items:center;}
+.btn{display:inline-block;padding:10px 24px;border-radius:4px;font-size:0.8rem;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;cursor:pointer;border:none;text-decoration:none;transition:all 0.2s ease;font-family:'DM Sans',sans-serif;}
+.btn-ghost{background:transparent;border:1px solid var(--border-hover);color:var(--muted);}
+.btn-ghost:hover{border-color:var(--accent);color:var(--accent);}
+.btn-primary{background:var(--accent);color:#fff;}
+.btn-primary:hover{background:var(--accent2);}
+.btn-gold{background:transparent;border:1px solid var(--gold);color:var(--gold);}
+.btn-gold:hover{background:var(--gold-muted);}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:120px 40px 72px;position:relative;overflow:hidden;}
+#network-canvas{position:absolute;inset:0;width:100%;height:100%;opacity:0.74;}
+.hero::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,22,23,0.18),rgba(17,22,23,0.74) 74%,var(--bg));pointer-events:none;}
+.hero-content{position:relative;z-index:1;width:min(1080px,100%);}
+.hero-eyebrow{font-size:0.72rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--gold);margin-bottom:32px;opacity:0;animation:fadeUp 0.8s ease forwards 0.2s;}
+.hero h1{font-family:'Cormorant Garamond',serif;font-size:4.7rem;font-weight:300;line-height:1.12;max-width:990px;margin:0 auto 28px;opacity:0;animation:fadeUp 0.8s ease forwards 0.4s;}
+.hero h1 em{font-style:italic;color:var(--gold);}
+.hero-sub{font-size:1.05rem;color:var(--muted);max-width:760px;margin:0 auto 48px;opacity:0;animation:fadeUp 0.8s ease forwards 0.6s;}
+.hero-ctas{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;opacity:0;animation:fadeUp 0.8s ease forwards 0.8s;}
+.ticker-wrap{width:100%;overflow:hidden;padding:20px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--bg2);}
+.ticker-track{display:flex;gap:0;width:max-content;animation:ticker 34s linear infinite;}
+.ticker-item{font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--muted);padding:0 40px;white-space:nowrap;}
+.ticker-item span{color:var(--gold);margin-right:40px;}
+@keyframes ticker{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+section{padding:100px 40px;max-width:1100px;margin:0 auto;}
+.section-label{font-size:0.7rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+section h2{font-family:'Cormorant Garamond',serif;font-size:3rem;font-weight:300;line-height:1.2;margin-bottom:48px;}
+section h2 em{font-style:italic;color:var(--gold);}
+.lede{color:var(--muted);font-size:1rem;max-width:780px;margin-top:-28px;margin-bottom:42px;}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2px;margin-top:48px;}
+.service-card{background:var(--surface);padding:40px 32px;border:1px solid var(--border);transition:border-color 0.2s;}
+.service-card:hover{border-color:var(--border-hover);}
+.service-num{font-family:'Cormorant Garamond',serif;font-size:2.5rem;color:var(--border-hover);line-height:1;margin-bottom:20px;}
+.service-card h3{font-family:'Cormorant Garamond',serif;font-size:1.35rem;font-weight:400;margin-bottom:12px;color:var(--text);}
+.service-card p{color:var(--muted);font-size:0.92rem;}
+.serve-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-top:16px;}
+.serve-card{padding:36px;border:1px solid var(--border);border-radius:4px;transition:border-color 0.2s,background 0.2s;}
+.serve-card:hover{border-color:var(--gold);background:var(--gold-muted);}
+.serve-card h3{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:400;margin-bottom:12px;}
+.serve-card p{color:var(--muted);font-size:0.92rem;}
+.engagement-wrap{background:var(--surface);border:1px solid var(--border);padding:64px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start;}
+@media(max-width:768px){.engagement-wrap{grid-template-columns:1fr;padding:40px 28px;gap:40px;}}
+.feature-list{list-style:none;margin:32px 0 40px;}
+.feature-list li{padding:12px 0;border-bottom:1px solid var(--border);color:var(--muted);font-size:0.92rem;display:flex;align-items:flex-start;gap:12px;}
+.feature-list li::before{content:"\00B7";color:var(--gold);font-size:1.4rem;line-height:1;}
+.engagement-right{padding-top:8px;}
+.engagement-right p{color:var(--muted);font-size:0.92rem;margin-bottom:24px;}
+.forms-section{background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:80px 40px;}
+.forms-inner{max-width:900px;margin:0 auto;}
+.contact-panel{background:var(--surface);border:1px solid var(--border);padding:48px;border-radius:4px;}
+.contact-panel p{color:var(--muted);font-size:0.95rem;margin-bottom:24px;max-width:720px;}
+.contact-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px;}
+.signal-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2px;margin-top:32px;}
+.signal-item{border:1px solid var(--border);padding:22px 24px;color:var(--muted);font-size:0.88rem;background:rgba(255,255,255,0.015);}
+.signal-item strong{display:block;color:var(--text);font-weight:400;margin-bottom:6px;}
+.proof-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:42px;border:1px solid var(--border);background:var(--border);}
+.proof-item{background:var(--bg);padding:22px 20px;text-align:left;}
+.proof-item strong{display:block;font-family:'Cormorant Garamond',serif;font-size:1.7rem;font-weight:400;color:var(--gold);line-height:1.1;margin-bottom:6px;}
+.proof-item span{display:block;color:var(--muted);font-size:0.78rem;letter-spacing:0.08em;text-transform:uppercase;line-height:1.4;}
+.agent-section{max-width:100%;background:var(--paper);color:var(--ink);border-top:1px solid rgba(0,0,0,0.08);border-bottom:1px solid rgba(0,0,0,0.08);}
+.agent-section .section-label{color:var(--rust);}
+.agent-section h2{color:var(--ink);max-width:1000px;}
+.agent-section h2 em{color:var(--accent2);}
+.agent-section .lede{color:#58615f;margin-top:-22px;}
+.agent-inner{max-width:1120px;margin:0 auto;}
+.agent-layout{display:grid;grid-template-columns:minmax(0,0.92fr) minmax(360px,1.08fr);gap:32px;align-items:stretch;margin-top:42px;}
+.agent-summary{display:flex;flex-direction:column;gap:18px;}
+.agent-point{border-left:3px solid var(--accent);padding:4px 0 4px 18px;color:#4c5552;font-size:0.95rem;}
+.agent-point strong{display:block;color:var(--ink);font-weight:500;margin-bottom:4px;}
+.agent-panel{border:1px solid rgba(23,27,28,0.15);background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 18px 48px rgba(23,27,28,0.12);}
+.agent-topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--ink);color:#fff;padding:16px 18px;border-bottom:1px solid rgba(255,255,255,0.1);}
+.agent-name{font-size:0.78rem;letter-spacing:0.16em;text-transform:uppercase;}
+.agent-status{display:flex;align-items:center;gap:8px;color:#b9cbc8;font-size:0.78rem;}
+.agent-status::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--accent);}
+.agent-screen{padding:22px;min-height:430px;display:flex;flex-direction:column;gap:18px;}
+.agent-response{background:#eef4f2;border:1px solid rgba(45,139,127,0.16);border-radius:8px;padding:20px;color:#26302e;font-size:0.94rem;min-height:178px;}
+.agent-response strong{display:block;color:var(--ink);font-weight:500;margin-bottom:8px;}
+.agent-response ul{margin:10px 0 0 18px;}
+.agent-response li{margin:5px 0;}
+.agent-prompts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;}
+.agent-prompts button{border:1px solid rgba(23,27,28,0.16);background:#fff;color:var(--ink);border-radius:6px;padding:12px;text-align:left;font-family:'DM Sans',sans-serif;font-size:0.83rem;line-height:1.35;cursor:pointer;transition:border-color 0.2s,background 0.2s;}
+.agent-prompts button:hover{border-color:var(--accent);background:#f7fbfa;}
+.agent-input-row{display:grid;grid-template-columns:1fr auto;gap:10px;margin-top:auto;}
+.agent-input-row input{min-width:0;border:1px solid rgba(23,27,28,0.18);border-radius:6px;padding:12px 14px;font:inherit;color:var(--ink);background:#fff;}
+.agent-input-row button{border-radius:6px;}
+.agent-note{font-size:0.78rem;color:#66706d;line-height:1.45;}
+.agent-proof{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:32px;background:rgba(23,27,28,0.1);border:1px solid rgba(23,27,28,0.1);}
+.agent-proof div{background:#fff;padding:18px;}
+.agent-proof strong{display:block;color:var(--ink);font-weight:500;margin-bottom:5px;}
+.agent-proof span{color:#59625f;font-size:0.84rem;}
+footer{border-top:1px solid var(--border);padding:40px 56px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;}
+.footer-brand{font-family:'Cormorant Garamond',serif;font-size:1rem;letter-spacing:0.1em;color:var(--muted);}
+.footer-links{display:flex;gap:24px;flex-wrap:wrap;}
+.footer-links a{font-size:0.8rem;color:var(--muted);text-decoration:none;transition:color 0.2s;}
+.footer-links a:hover{color:var(--text);}
+.footer-copy{font-size:0.75rem;color:var(--border-hover);}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.8);backdrop-filter:blur(8px);z-index:500;align-items:center;justify-content:center;padding:20px;}
+.modal-overlay.open{display:flex;}
+.modal{background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:48px;max-width:540px;width:100%;position:relative;max-height:90vh;overflow-y:auto;}
+.modal-close{position:absolute;top:20px;right:20px;background:none;border:none;color:var(--muted);font-size:1.4rem;cursor:pointer;line-height:1;padding:4px 8px;transition:color 0.2s;}
+.modal-close:hover{color:var(--text);}
+.modal h2{font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:400;margin-bottom:8px;}
+.modal-sub{color:var(--muted);font-size:0.88rem;margin-bottom:32px;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity 0.7s ease,transform 0.7s ease;}
+.reveal.visible{opacity:1;transform:translateY(0);}
+@media(max-width:900px){.agent-layout{grid-template-columns:1fr;}.proof-strip,.agent-proof{grid-template-columns:repeat(2,1fr);}.hero h1{font-size:3.7rem;}section h2{font-size:2.55rem;}}
+@media(max-width:640px){nav{padding:16px 24px;}.nav-actions{gap:8px}.btn{padding:9px 16px;font-size:0.72rem}.hero{padding:100px 24px 60px;min-height:92vh;}.hero h1{font-size:2.9rem;}section h2{font-size:2.1rem;}footer{padding:32px 24px;flex-direction:column;align-items:flex-start;}section{padding:64px 24px;}.engagement-wrap,.contact-panel{padding:32px 24px;}.proof-strip,.agent-proof,.agent-prompts{grid-template-columns:1fr;}.agent-screen{padding:18px;}.agent-input-row{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<nav>
+  <a class="nav-logo" href="#">Summit Club 64</a>
+  <div class="nav-actions">
+    <button class="btn btn-ghost" onclick="openModal('login-modal')">Member Login</button>
+    <button class="btn btn-ghost" onclick="document.getElementById('andrew-agent').scrollIntoView({behavior:'smooth'})">AI Agent</button>
+    <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Request Access</button>
+  </div>
+</nav>
+
+<section class="hero">
+  <canvas id="network-canvas" aria-hidden="true"></canvas>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Andrew Walbert's AI Career Agent</div>
+    <h1>A living professional portfolio <em>that can represent the work.</em></h1>
+    <p class="hero-sub">This is Andrew's AI-powered career and talent intelligence portfolio: a public-safe agent concept that explains his GTM recruiting background, sourcing strategy, network systems, LinkedIn expertise, and practical AI workflow skills better than a static resume can.</p>
+    <div class="hero-ctas">
+      <button class="btn btn-primary" onclick="document.getElementById('andrew-agent').scrollIntoView({behavior:'smooth'})">Meet the Agent</button>
+      <button class="btn btn-ghost" onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">What Members Receive</button>
+    </div>
+    <div class="proof-strip">
+      <div class="proof-item"><strong>Agent</strong><span>Public professional persona</span></div>
+      <div class="proof-item"><strong>Map</strong><span>Companies, roles, people, timing</span></div>
+      <div class="proof-item"><strong>Voice</strong><span>Grounded, specific, human</span></div>
+      <div class="proof-item"><strong>Actions</strong><span>Small moves that compound</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="ticker-wrap" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="ticker-item"><span>&middot;</span> AI Career Agents</span>
+    <span class="ticker-item"><span>&middot;</span> Talent Intelligence Portfolios</span>
+    <span class="ticker-item"><span>&middot;</span> Career Market Maps</span>
+    <span class="ticker-item"><span>&middot;</span> Professional Network CRM</span>
+    <span class="ticker-item"><span>&middot;</span> Digital Portfolio Audits</span>
+    <span class="ticker-item"><span>&middot;</span> Opportunity Intelligence</span>
+    <span class="ticker-item"><span>&middot;</span> Recruiter Mapping</span>
+    <span class="ticker-item"><span>&middot;</span> Target Company Intelligence</span>
+    <span class="ticker-item"><span>&middot;</span> AI Career Agent</span>
+    <span class="ticker-item"><span>&middot;</span> Discreet Relationship Actions</span>
+    <span class="ticker-item"><span>&middot;</span> Current-Role Performance</span>
+    <span class="ticker-item"><span>&middot;</span> Career Continuity</span>
+    <span class="ticker-item"><span>&middot;</span> AI Career Agents</span>
+    <span class="ticker-item"><span>&middot;</span> Talent Intelligence Portfolios</span>
+    <span class="ticker-item"><span>&middot;</span> Career Market Maps</span>
+    <span class="ticker-item"><span>&middot;</span> Professional Network CRM</span>
+    <span class="ticker-item"><span>&middot;</span> Digital Portfolio Audits</span>
+    <span class="ticker-item"><span>&middot;</span> Opportunity Intelligence</span>
+    <span class="ticker-item"><span>&middot;</span> Recruiter Mapping</span>
+    <span class="ticker-item"><span>&middot;</span> Target Company Intelligence</span>
+    <span class="ticker-item"><span>&middot;</span> AI Career Agent</span>
+    <span class="ticker-item"><span>&middot;</span> Discreet Relationship Actions</span>
+    <span class="ticker-item"><span>&middot;</span> Current-Role Performance</span>
+    <span class="ticker-item"><span>&middot;</span> Career Continuity</span>
+  </div>
+</div>
+
+<section class="agent-section" id="andrew-agent">
+  <div class="agent-inner">
+    <div class="section-label reveal">Live Portfolio Concept</div>
+    <h2 class="reveal">Andrew's AI Career Agent turns a profile into an <em>interactive talent intelligence system.</em></h2>
+    <p class="lede reveal">The agent is designed to represent Andrew's professional story accurately, explain where he fits, and demonstrate how AI can organize career positioning, market intelligence, and relationship strategy without exposing private network data.</p>
+    <div class="agent-layout reveal">
+      <div class="agent-summary">
+        <div class="agent-point"><strong>It represents Andrew's positioning.</strong>Senior GTM recruiter, sourcing strategist, talent intelligence operator, and AI-enabled relationship-builder for SaaS, AI, cloud, cybersecurity, and enterprise technology companies.</div>
+        <div class="agent-point"><strong>It proves the workflow.</strong>Instead of saying Andrew uses AI, the portfolio shows how an agent can synthesize resume evidence, LinkedIn positioning, target roles, company fit, and interview-ready narratives.</div>
+        <div class="agent-point"><strong>It stays defensible.</strong>The public version answers from verified professional materials only. It avoids private contacts, confidential records, fake metrics, and exaggerated claims.</div>
+        <div class="agent-point"><strong>It scales into SC64.</strong>The same structure can become a private professional network operating system for members: profile intelligence, market maps, relationship actions, and weekly next steps.</div>
+      </div>
+      <div class="agent-panel" aria-label="Andrew AI Career Agent preview">
+        <div class="agent-topbar">
+          <div class="agent-name">Andrew AI Career Agent</div>
+          <div class="agent-status">Public-safe preview</div>
+        </div>
+        <div class="agent-screen">
+          <div class="agent-response" id="agent-response">
+            <strong>Ask the portfolio agent what Andrew is built for.</strong>
+            <p>Select a prompt below to see how the agent would explain Andrew's background, target role fit, and AI-enabled talent intelligence approach.</p>
+          </div>
+          <div class="agent-prompts">
+            <button type="button" data-agent-prompt="fit">Why is Andrew a fit for GTM recruiting?</button>
+            <button type="button" data-agent-prompt="ai">How does Andrew use AI in sourcing?</button>
+            <button type="button" data-agent-prompt="companies">What companies should notice him?</button>
+            <button type="button" data-agent-prompt="interview">Summarize Andrew for an interview.</button>
+          </div>
+          <div class="agent-input-row">
+            <input id="agent-input" type="text" aria-label="Ask Andrew's AI Career Agent" placeholder="Ask about Andrew's role fit, strengths, or portfolio..." />
+            <button class="btn btn-primary" type="button" id="agent-ask">Ask</button>
+          </div>
+          <p class="agent-note">This preview is intentionally public-safe. A private version can use deeper resume, LinkedIn export, target-company, CRM, and network data with approval controls.</p>
+        </div>
+      </div>
+    </div>
+    <div class="agent-proof reveal">
+      <div><strong>GTM + Enterprise Sales</strong><span>Sales, marketing, revenue, systems engineering, solutions architecture, and GTM leadership recruiting environments.</span></div>
+      <div><strong>Talent Intelligence</strong><span>Market maps, target companies, calibrated personas, relationship paths, pipeline visibility, and hiring-manager alignment.</span></div>
+      <div><strong>AI Workflow Design</strong><span>Practical use of AI for intake prep, sourcing research, candidate profiles, outreach drafts, documentation, and next-best-action planning.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="mission">
+  <div class="section-label reveal">Mission</div>
+  <h2 class="reveal">Your career network and operating network are now <em>the same asset.</em></h2>
+  <p class="lede reveal">Senior technology leaders can no longer wait until a search begins to rebuild visibility, trust, market awareness, and warm paths into the right companies. Summit Club 64 manages that asset before it is urgent.</p>
+  <div class="signal-list reveal">
+    <div class="signal-item"><strong>Perform now</strong>Use the right people, companies, buyers, peers, recruiters, and market signals to support the role you already have.</div>
+    <div class="signal-item"><strong>Stay ready</strong>Keep your profile, network, target companies, and opportunity map warm before the next move is public.</div>
+    <div class="signal-item"><strong>Protect optionality</strong>Maintain quiet access to recruiters, operators, founders, investors, and companies that matter to your market.</div>
+    <div class="signal-item"><strong>Reduce randomness</strong>Replace scattered networking with a managed system of relationship intelligence and next-best actions.</div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="section-label reveal">Member Services</div>
+  <h2 class="reveal">A private network operating layer <em>for senior technology leaders.</em></h2>
+  <div class="services-grid">
+    <div class="service-card reveal"><div class="service-num">01</div><h3>Digital Portfolio Audit</h3><p>We review the member’s LinkedIn profile, resume, public signals, positioning, and proof points against the market they want to be known in.</p></div>
+    <div class="service-card reveal"><div class="service-num">02</div><h3>Career Market Map</h3><p>We build a member-specific map of target companies, comparable leaders, recruiter/search firms, investors, operators, groups, and warm paths.</p></div>
+    <div class="service-card reveal"><div class="service-num">03</div><h3>Network CRM</h3><p>We organize priority relationships by company, role, relevance, strength, timing, introduction path, and recommended next action.</p></div>
+    <div class="service-card reveal"><div class="service-num">04</div><h3>Opportunity Intelligence</h3><p>We monitor company movement, leadership changes, hiring signals, competitor teams, recruiter activity, and market shifts that affect the member.</p></div>
+    <div class="service-card reveal"><div class="service-num">05</div><h3>AI Career Agent</h3><p>Each member can be supported by a private AI workflow that summarizes intelligence, drafts actions, preserves voice, and maintains weekly network focus.</p></div>
+    <div class="service-card reveal"><div class="service-num">06</div><h3>Discreet Activation</h3><p>We recommend profile improvements, follows, connects, outreach drafts, content ideas, and relationship actions that build visibility without looking desperate.</p></div>
+  </div>
+</section>
+
+<section style="background:var(--bg2);max-width:100%;border-top:1px solid var(--border);border-bottom:1px solid var(--border);" id="membership">
+  <div style="max-width:1100px;margin:0 auto;">
+    <div class="section-label reveal">Who We Serve</div>
+    <h2 class="reveal">Built for leaders whose market value depends on <em>relationships, timing, and trust.</em></h2>
+    <div class="serve-grid">
+      <div class="serve-card reveal"><h3>Enterprise Sales Leaders</h3><p>VP Sales, CRO, RVP, AVP, strategic account, and enterprise revenue leaders who need strong buyer, recruiter, peer, and operator networks.</p></div>
+      <div class="serve-card reveal"><h3>GTM & Operating Leaders</h3><p>Marketing, revenue, customer, product, and operating leaders whose next opportunity may come through founders, investors, peers, or executive search.</p></div>
+      <div class="serve-card reveal"><h3>Senior Technology Professionals</h3><p>Leaders who are not publicly looking, but want their professional digital portfolio, company map, and network intelligence maintained before they need it.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="engagement">
+  <div class="section-label reveal">How Membership Works</div>
+  <h2 class="reveal">Private, structured, and built around <em>small high-signal actions.</em></h2>
+  <div class="engagement-wrap reveal">
+    <div>
+      <p style="color:var(--muted);font-size:0.95rem;margin-bottom:24px;">Summit Club 64 is not a job board, resume shop, or traditional recruiting agency. It is a private professional network system for leaders whose current performance and future opportunity both depend on network strength.</p>
+      <ul class="feature-list">
+        <li>Initial professional digital portfolio and network audit</li>
+        <li>Member-specific target company and role universe</li>
+        <li>Executive recruiter, investor, founder, peer, and operator mapping</li>
+        <li>Profile, content, connect, follow, and outreach recommendations</li>
+        <li>Weekly or monthly intelligence briefings and next-best actions</li>
+      </ul>
+      <button class="btn btn-gold" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Request Membership</button>
+    </div>
+    <div class="engagement-right">
+      <p>The work starts with an audit: what your current profile says, what your market needs to understand, who you should be visible to, and which relationships matter most.</p>
+      <p>From there, SC64 builds the operating map: target companies, comparable leaders, recruiters, groups, warm paths, market signals, and small actions that compound quietly.</p>
+      <p>The goal is not to make members look like job seekers. The goal is to make sure their professional network is alive, organized, relevant, and ready.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-label reveal">Signals We Organize</div>
+  <h2 class="reveal">The intelligence layer behind better opportunities.</h2>
+  <div class="signal-list reveal">
+    <div class="signal-item"><strong>Companies</strong>Target employers, customer accounts, competitors, growth companies, portfolio companies, and alumni sources.</div>
+    <div class="signal-item"><strong>People</strong>Executives, recruiters, founders, investors, operators, peers, top performers, connectors, and second-degree paths.</div>
+    <div class="signal-item"><strong>Timing</strong>Leadership moves, funding events, hiring signals, team growth, restructuring risk, compensation shifts, and market changes.</div>
+    <div class="signal-item"><strong>Actions</strong>Profile updates, follows, connection targets, warm-intro paths, comments, content, outreach drafts, and weekly focus lists.</div>
+  </div>
+</section>
+
+<div class="forms-section" id="contact">
+  <div class="forms-inner">
+    <div class="section-label reveal">Request Access</div>
+    <h2 class="reveal" style="margin-bottom:32px;">Membership starts <em>with a private fit conversation.</em></h2>
+    <div class="contact-panel reveal">
+      <p>Summit Club 64 works with a limited number of members at a time. The best fit is a senior technology leader who values discretion, relationship intelligence, market readiness, and practical network management.</p>
+      <p>If you were referred, or if your professional network has become too important to manage casually, request a conversation.</p>
+      <div class="contact-actions">
+        <a class="btn btn-primary" href="mailto:aew@smtc64.com?subject=Summit%20Club%2064%20Membership%20Conversation">Email Summit Club 64</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/company/sc64/" target="_blank" rel="noopener">LinkedIn Company Page</a>
+        <a class="btn btn-gold" href="tel:7253336460">Call 725-333-6460</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-brand">Summit Club 64</div>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/company/sc64/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="mailto:aew@smtc64.com">aew@smtc64.com</a>
+    <a href="tel:7253336460">725-333-6460</a>
+  </div>
+  <div class="footer-copy">&copy; 2026 Summit Club 64, LLC &middot; Boulder, Colorado &middot; smtc64.com</div>
+</footer>
+
+<div class="modal-overlay" id="login-modal" role="dialog" aria-modal="true" aria-labelledby="login-modal-title">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('login-modal')" aria-label="Close">&times;</button>
+    <h2 id="login-modal-title">Member Access</h2>
+    <p class="modal-sub">Member workspaces are private and invitation-based. If you need access, email Summit Club 64 and we will send the correct link.</p>
+    <a class="btn btn-primary" style="width:100%;text-align:center;" href="mailto:aew@smtc64.com?subject=Member%20Workspace%20Access">Request Access</a>
+  </div>
+</div>
+
+<script>
+const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target);}});},{threshold:0.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+function openModal(id){document.getElementById(id).classList.add('open');document.body.style.overflow='hidden';}
+function closeModal(id){document.getElementById(id).classList.remove('open');document.body.style.overflow='';}
+const agentAnswers={
+  fit:`<strong>Andrew is strongest where GTM recruiting needs market intelligence, not just candidate names.</strong><p>He brings 20+ years across SaaS, cloud, identity, AI, and enterprise technology environments, with experience supporting Sales, Marketing, Revenue Operations, Systems Engineering, Solutions Architecture, Product/GTM Program Management, and technical roles.</p><ul><li>Builds target-company and persona maps for competitive GTM hiring.</li><li>Partners with hiring leaders on calibration, pipeline health, and outreach priorities.</li><li>Combines sourcing, LinkedIn strategy, CRM/ATS discipline, and relationship-centered follow-up.</li></ul>`,
+  ai:`<strong>Andrew uses AI as a workflow layer for recruiting and relationship systems.</strong><p>The value is practical: intake prep, sourcing research, market maps, candidate summaries, outreach drafts, profile audits, data cleanup, documentation, and next-best-action planning.</p><ul><li>AI improves speed and structure without replacing human judgment.</li><li>LinkedIn, Sales Navigator, CRM, and ATS workflows become cleaner and easier to act on.</li><li>The same model can support SC64 members as a private career and network operator.</li></ul>`,
+  companies:`<strong>Andrew should be visible to high-growth US technology companies building GTM and enterprise teams.</strong><p>The strongest lanes are SaaS, AI, cloud, cybersecurity, data, identity, developer tools, and enterprise software companies where talent intelligence and relationship quality affect execution.</p><ul><li>Enterprise: Databricks, Snowflake, Zscaler, CrowdStrike, Pure Storage, Twilio, Atlassian, Salesforce.</li><li>AI/startup: OpenAI-adjacent companies, Anthropic-adjacent ecosystems, Nooks, Vanta, Wiz, Cribl, Gusto, Snorkel AI.</li><li>Role lanes: Senior GTM Recruiter, Senior Sales Recruiter, GTM Talent Partner, Talent Intelligence Partner, AI Recruiting Operations.</li></ul>`,
+  interview:`<strong>Interview summary:</strong><p>Andrew is a senior GTM recruiter and talent intelligence operator who helps enterprise technology teams identify, engage, and organize high-value talent. His edge is the bridge between sourcing, B2B relationship-building, LinkedIn/Sales Navigator research, CRM/ATS workflows, and practical AI-enabled recruiting operations.</p><p>He is best positioned for companies that need a recruiting partner who can map markets, calibrate personas, build relationship paths, and keep hiring execution organized without sounding transactional.</p>`
+};
+function showAgentAnswer(key){
+  const response=document.getElementById('agent-response');
+  if(!response)return;
+  response.innerHTML=agentAnswers[key]||agentAnswers.fit;
+}
+document.querySelectorAll('[data-agent-prompt]').forEach(button=>{button.addEventListener('click',()=>showAgentAnswer(button.dataset.agentPrompt));});
+const agentAsk=document.getElementById('agent-ask');
+if(agentAsk){
+  agentAsk.addEventListener('click',()=>{
+    const value=(document.getElementById('agent-input')?.value||'').toLowerCase();
+    if(value.includes('ai')||value.includes('workflow')||value.includes('automation'))showAgentAnswer('ai');
+    else if(value.includes('company')||value.includes('target')||value.includes('role'))showAgentAnswer('companies');
+    else if(value.includes('interview')||value.includes('summary')||value.includes('screen'))showAgentAnswer('interview');
+    else showAgentAnswer('fit');
+  });
+}
+const canvas=document.getElementById('network-canvas');
+if(canvas){
+  const ctx=canvas.getContext('2d');
+  const nodes=[];
+  let width=0,height=0,raf=0;
+  function resizeCanvas(){
+    const ratio=window.devicePixelRatio||1;
+    width=canvas.clientWidth;
+    height=canvas.clientHeight;
+    canvas.width=width*ratio;
+    canvas.height=height*ratio;
+    ctx.setTransform(ratio,0,0,ratio,0,0);
+    nodes.length=0;
+    const count=Math.max(34,Math.floor(width/26));
+    for(let i=0;i<count;i++){
+      nodes.push({x:Math.random()*width,y:Math.random()*height,vx:(Math.random()-.5)*0.28,vy:(Math.random()-.5)*0.28,r:Math.random()*1.8+1.2});
+    }
+  }
+  function drawNetwork(){
+    ctx.clearRect(0,0,width,height);
+    const grad=ctx.createLinearGradient(0,0,width,height);
+    grad.addColorStop(0,'rgba(45,139,127,0.16)');
+    grad.addColorStop(0.52,'rgba(143,106,163,0.10)');
+    grad.addColorStop(1,'rgba(213,180,108,0.10)');
+    ctx.fillStyle=grad;
+    ctx.fillRect(0,0,width,height);
+    for(const node of nodes){
+      node.x+=node.vx;node.y+=node.vy;
+      if(node.x<0||node.x>width)node.vx*=-1;
+      if(node.y<0||node.y>height)node.vy*=-1;
+    }
+    for(let i=0;i<nodes.length;i++){
+      for(let j=i+1;j<nodes.length;j++){
+        const a=nodes[i],b=nodes[j],dx=a.x-b.x,dy=a.y-b.y,dist=Math.hypot(dx,dy);
+        if(dist<150){
+          ctx.strokeStyle=`rgba(241,238,231,${(1-dist/150)*0.16})`;
+          ctx.lineWidth=1;
+          ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();
+        }
+      }
+    }
+    for(const node of nodes){
+      ctx.fillStyle='rgba(213,180,108,0.78)';
+      ctx.beginPath();ctx.arc(node.x,node.y,node.r,0,Math.PI*2);ctx.fill();
+    }
+    raf=requestAnimationFrame(drawNetwork);
+  }
+  resizeCanvas();
+  drawNetwork();
+  window.addEventListener('resize',()=>{cancelAnimationFrame(raf);resizeCanvas();drawNetwork();});
+}
+document.querySelectorAll('.modal-overlay').forEach(overlay=>{overlay.addEventListener('click',function(e){if(e.target===this)closeModal(this.id);});});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){document.querySelectorAll('.modal-overlay.open').forEach(m=>closeModal(m.id));}});
+if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){document.querySelectorAll('.reveal').forEach(el=>el.classList.add('visible'));}
+</script>
+</body>
+</html>
