@@ -1,51 +1,47 @@
 # Case Study Template
 
-Use this template for future public-safe proof examples.
+Use this template for future public-safe SC64 examples.
 
 ## Situation
 
-What was the business, hiring, or network problem?
+What professional network, hiring, market-awareness, or opportunity-readiness problem existed?
 
-Keep client, candidate, and member details anonymized unless explicit approval exists.
+Do not expose member identity unless explicit approval exists.
 
-## Goal
+## Approved Inputs
 
-What needed to become clearer, faster, or better organized?
-
-## Inputs
-
-- role context
-- target market
-- public company signals
-- approved resume or profile evidence
-- existing relationship data, if approved
-- known constraints
+- approved companies
+- approved people
+- trusted groups
+- private pool records
+- public signals marked for review
+- CRM / Airtable / Google Sheets
+- member boundaries and sensitivity notes
 
 ## Workflow
 
-1. clarify the objective
-2. define target personas
-3. map companies and relationship paths
-4. organize evidence
-5. draft recommendations
-6. review for accuracy and privacy
-7. turn output into next actions
+1. confirm member boundaries
+2. search private pool first
+3. expand to open market only if needed
+4. mark unverified results
+5. rank by relevance, trust, and timing
+6. draft recommendations
+7. prepare review queue
+8. require approval before outreach
 
 ## Output
 
-What was produced?
-
-- market map
-- target list
-- profile audit
-- outreach angles
-- weekly action brief
-- interview positioning
-- CRM cleanup plan
+- network briefing
+- signal monitoring summary
+- ranked contact list
+- warm path map
+- outreach drafts
+- workflow package
+- activation plan
 
 ## Result
 
 Use only verified, approved outcomes.
 
-If metrics are not approved, describe operational improvements such as clarity, repeatability, visibility, or better prioritization.
+If metrics are not approved, describe operational improvements such as clearer prioritization, better signal filtering, stronger review discipline, or faster approval-ready preparation.
 

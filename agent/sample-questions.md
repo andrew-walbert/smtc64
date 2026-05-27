@@ -1,32 +1,33 @@
 # Sample Questions
 
-Visitors can use these questions to understand Andrew's AI Career Agent concept.
+These examples show the type of questions a private SC64 Member Network Agent can support after a member approves the relevant market, people, and data boundaries.
 
-## Andrew's Positioning
+## Market Awareness
 
-- What is Andrew strongest at professionally?
-- How would you summarize Andrew for a recruiter screen?
-- What roles or companies are most aligned with Andrew's background?
-- How does Andrew's experience extend beyond a traditional sourcer profile?
+- What is happening in my network that I should know about?
+- Are any approved companies hiring quietly?
+- Which target companies are hiring GTM leaders?
+- Which opportunities are worth attention without signaling I am looking?
 
-## GTM Talent Intelligence
+## Relationship Actions
 
-- What does a GTM talent intelligence workflow look like?
-- How would Andrew map an enterprise sales talent market?
-- What should a hiring manager clarify before launching a GTM search?
-- What signals matter when building a target company map?
+- Who should I reconnect with discreetly this week?
+- Which people should I reconnect with this week?
+- If I got laid off tomorrow, who are my top warm paths?
+- Draft a soft reconnect message, but do not send it.
+- Draft a message to this contact, but do not send it yet.
 
-## Network And Relationship Strategy
+## Signal Monitoring
 
-- What makes a professional network operating system different from a contact list?
-- How should a senior technology leader maintain visibility discreetly?
-- What relationship actions are useful without looking like a public job search?
-- How can LinkedIn be treated as a professional network homepage?
+- What sales tools or groups are worth watching?
+- Who changed jobs this week that I should know about?
+- What relevant jobs are open in my network right now?
+- What should I ignore this week?
 
-## AI Workflow Design
+## Activation
 
-- How does Andrew use AI without replacing human judgment?
-- What parts of sourcing can AI help structure?
-- What should stay human in recruiting and relationship-building?
-- What is an example of a weekly AI-generated network action brief?
+- Activate my approved network plan.
+- Package my top warm paths for review.
+- Build a review queue from my approved target companies.
+- Prepare outreach options, but wait for approval.
 

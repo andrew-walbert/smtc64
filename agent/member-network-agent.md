@@ -1,6 +1,6 @@
 # SC64 Member Network Agent
 
-The SC64 Member Network Agent is the private extension of the public Andrew AI Career Agent framework.
+The SC64 Member Network Agent is the primary private product direction for Summit Club 64.
 
 The public site demonstrates the operating model. The private member version is designed to help approved members maintain a discreet, useful, and permissioned professional network system.
 
@@ -44,6 +44,7 @@ The agent should operate with clear authority levels:
 - Monitor: watch approved sources and signals
 - Recommend: suggest relevant people, companies, tools, groups, or actions
 - Draft: prepare messages, notes, or briefing language
+- Package workflow: prepare ranked lists, exports, queues, and delivery-ready briefings
 - Engage: act only with explicit approval
 - Escalate: pause and ask for human review when sensitive
 
@@ -58,9 +59,10 @@ A member might ask:
 - Which target companies are hiring GTM leaders?
 - Which groups or tools are worth my attention?
 - Who should I reconnect with this week?
+- If I got laid off tomorrow, who are my top warm paths?
 - Draft a message, but do not send it yet.
+- Activate my approved network plan.
 
 ## Public-Safe Positioning
 
 Public language should stay discreet. The site can describe the operating concept, but should not expose member benefits, private data sources, private contacts, or automation details that could imply uncontrolled outreach.
-

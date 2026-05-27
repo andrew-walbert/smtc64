@@ -1,42 +1,42 @@
-# Public Agent Capabilities
+# Agent Capabilities
 
-The public Andrew AI Career Agent can answer questions from public, approved, and evidence-based materials.
+The SC64 Member Network Agent is designed to support private, permissioned professional network intelligence.
 
-## What It Can Explain
+## Public-Safe Capabilities
 
-- Andrew's professional positioning
-- Andrew's GTM recruiting background
-- Andrew's sourcing and talent intelligence approach
-- how Andrew uses LinkedIn, Sales Navigator, CRM, ATS, and AI workflows
-- how Summit Club 64 thinks about discreet professional network systems
-- what types of companies, roles, and hiring environments fit Andrew's experience
-- how an AI career agent can support profile, portfolio, interview, and market-readiness work
+The public site can describe the agent's operating model:
 
-## What It Can Produce
+- monitor approved professional markets
+- identify relevant companies, people, roles, tools, groups, recruiters, and warm paths
+- answer private member questions inside approved boundaries
+- recommend useful action only when warranted
+- draft outreach in the member's voice when requested
+- package workflow queues for review
+- escalate sensitive situations
+- require approval before public action
 
-- GTM talent map examples
-- target persona examples
-- LinkedIn/profile audit examples
-- sourcing intake frameworks
-- outreach angle examples
-- recruiter relationship plans
-- interview positioning notes
-- weekly network action briefs
+## Private Member Capabilities
 
-## How It Supports GTM Recruiting
+Inside a private workspace, with member permission, the agent may support:
 
-The agent models the operating steps behind stronger GTM recruiting:
+- approved company maps
+- approved people and relationship paths
+- recruiter and peer network maps
+- target role and opportunity monitoring
+- signal filtering from trusted groups
+- warm path ranking
+- action queue preparation
+- Telegram, Slack, email, Sheet, Airtable, or export-based briefings
 
-1. clarify the role, market, and hiring context
-2. define target personas and comparable profiles
-3. map companies and talent pools
-4. identify relationship paths and outreach angles
-5. organize work into CRM/ATS-friendly next actions
-6. keep recommendations grounded in evidence
+## What Makes It Different
 
-## How It Uses AI
+Random candidate automation:
 
-AI is used as a workflow layer, not a gimmick.
+> scrape, blast, hope
 
-The system helps structure research, summarize evidence, compare profiles, draft outreach angles, clean notes, prepare interview narratives, and maintain repeatable operating rhythms.
+SC64 Member Network Agent:
+
+> map, rank, verify, draft, approve, execute, track
+
+SC64 recommends and packages. The member approves and owns execution.
 

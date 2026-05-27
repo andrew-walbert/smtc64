@@ -1,6 +1,6 @@
 # Sample Outputs
 
-These examples show the type of public-safe output the Andrew AI Career Agent can produce.
+These examples show the type of public-safe output the SC64 Member Network Agent and Andrew proof-of-work portfolio can produce.
 
 ## GTM Talent Map
 
@@ -70,4 +70,3 @@ Example structure:
 - 2 opportunity actions
 
 The goal is a small, repeatable operating rhythm rather than a large public campaign.
-

@@ -1,39 +1,41 @@
 # Public Knowledge Base
 
-This file defines the safe public knowledge the site can use.
-
-## Andrew Walbert
-
-Andrew Walbert is a senior GTM recruiter, sourcing strategist, and talent intelligence operator based in the Boulder, Colorado area.
-
-His work combines GTM recruiting, sourcing strategy, LinkedIn/Sales Navigator research, CRM/ATS workflow organization, market mapping, relationship development, and practical AI-assisted recruiting workflows.
-
-## Resume Evidence
-
-Public-safe resume evidence includes:
-
-- 20+ years in recruiting, sourcing, talent intelligence, and technology hiring environments
-- experience across SaaS, cloud, identity, AI, cybersecurity, data, and enterprise technology
-- support for GTM and technical roles across Sales, Marketing, Revenue Operations, Systems Engineering, Solutions Architecture, Product/GTM Program Management, and specialized technical functions
-- sourcing contributions connected to 100+ GTM and technical hires across North America
-- experience with Summit Club 64, Rev.io, OpenAI, Okta, AWS, Pure Storage, and Zume Search
+This file defines the public-safe knowledge the site can use.
 
 ## Summit Club 64
 
 Summit Club 64 is a private, members-only professional network intelligence and digital portfolio service.
 
-The public site should describe the work discreetly:
+The public product direction is the SC64 Member Network Agent: a private AI-powered professional network manager that helps approved members monitor their professional market, protect their boundaries, and act only when a signal is worth attention.
 
-- private professional digital portfolio systems
-- talent intelligence and GTM network mapping
-- discreet relationship and market-readiness support
-- AI-assisted workflows for career, recruiting, and network organization
+## Master Network Node
 
-The site should not disclose member details, private benefits, private contacts, or confidential workflows.
+The Master Network Node is the trusted private layer between:
 
-## Public Site Purpose
+- LinkedIn Sales Navigator
+- member-approved companies
+- member-approved people
+- trusted groups
+- CRM / Airtable / Google Sheets
+- Phantombuster or other approved signal ingestion tools
+- Telegram / Slack / email delivery
+- human review
 
-The website is a public proof-of-work portfolio.
+The AI searches the trusted private layer first before using open-market expansion.
 
-It shows how Andrew can turn scattered professional data into structured positioning, market intelligence, workflows, and decision-ready outputs.
+## Andrew Walbert
 
+Andrew Walbert's public proof-of-work portfolio demonstrates the thinking behind the system: GTM recruiting, talent intelligence, sourcing strategy, relationship mapping, LinkedIn/network systems, and practical AI workflow design.
+
+## Public Safety
+
+Public materials should describe the operating model without exposing:
+
+- member identities
+- private contacts
+- private relationship paths
+- private data sources
+- confidential client details
+- unapproved automation details
+
+The public version is intentionally safe, permissioned, and evidence-based.
