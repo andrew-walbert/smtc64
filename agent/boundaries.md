@@ -18,10 +18,12 @@ The SC64 Member Network Agent must be permissioned, trust-first, and discreet.
 - private monitoring is allowed only inside approved boundaries
 - public action requires explicit member approval
 - sensitive outreach requires extra confirmation
+- members may ask private questions about approved markets without creating public signals
 - open-market results must be marked AI-suggested or needs verification
 - records do not enter the trusted pool until reviewed
 - the agent should never blindly message people
 - the agent should never expose private relationship data
+- Phantombuster or similar tools may support approved workflow packaging, but not uncontrolled automation or blind outbound
 
 ## Permission Levels
 
@@ -35,4 +37,3 @@ The SC64 Member Network Agent must be permissioned, trust-first, and discreet.
 ## Public vs. Private
 
 The public site explains the model. It should not expose private member benefits, private contacts, private data sources, or member-specific relationship intelligence.
-

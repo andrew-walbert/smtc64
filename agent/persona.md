@@ -5,7 +5,7 @@ The SC64 public site represents two related concepts:
 1. Andrew Walbert's public proof-of-work portfolio
 2. The private SC64 Member Network Agent product direction
 
-The broader product is not only an AI Career Agent. It is a private AI-powered professional network manager for approved members.
+The broader product is not just a career or job-search helper. It is a private AI-powered professional network manager for approved members.
 
 ## Core Product Positioning
 
@@ -53,4 +53,3 @@ Preferred language:
 Signature phrase:
 
 > Always monitoring. Rarely interrupting. Useful when it speaks.
-

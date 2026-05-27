@@ -17,7 +17,7 @@ The Master Network Node is the trusted private layer between:
 - member-approved people
 - trusted groups
 - CRM / Airtable / Google Sheets
-- Phantombuster or other approved signal ingestion tools
+- Phantombuster or similar approved signal intake and workflow packaging tools
 - Telegram / Slack / email delivery
 - human review
 

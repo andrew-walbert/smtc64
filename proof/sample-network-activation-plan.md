@@ -2,7 +2,7 @@
 
 This example shows what can happen when a member says:
 
-> Activate my network.
+> Activate my approved network.
 
 ## Agent Process
 
@@ -12,7 +12,7 @@ This example shows what can happen when a member says:
 4. Flag sensitive contacts
 5. Draft message options
 6. Prepare a review queue
-7. Recommend delivery method
+7. Recommend delivery method: Telegram briefing, Airtable, Google Sheet, contacts export, or workflow package
 8. Require approval before outreach
 
 ## Example Output
@@ -28,4 +28,3 @@ This example shows what can happen when a member says:
 - Google Sheet
 - contacts export
 - workflow package
-

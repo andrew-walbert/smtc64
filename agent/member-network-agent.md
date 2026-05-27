@@ -21,6 +21,8 @@ SC64 members are not treated only as candidates or job seekers. They are profess
 
 The agent helps members stay useful and visible inside the professional networks that create opportunities.
 
+SC64 helps members stay informed, visible, and connected without looking like they are publicly searching, reacting, or forcing outcomes.
+
 ## Master Network Node
 
 The Master Network Node is the private, permissioned trust layer behind the member experience.
@@ -36,6 +38,22 @@ It can organize approved signals from:
 - public market signals that require review
 
 The public site should never imply open access to this data. The private layer is permissioned, reviewed, and bounded.
+
+## Approved Company Universe
+
+A member may approve a defined company universe, such as 100 companies worth following.
+
+SC64 mirrors those companies into the Master Network Node and monitors them for hiring, leadership moves, tools, groups, people, recruiter activity, and warm-path signals.
+
+Open-market records remain AI-suggested or needs-review until a human reviews them. Company monitoring does not create permission to contact.
+
+## Member-Owned Workflow Node
+
+Members may have their own digital network portfolio and optional execution tools, including a personal Phantombuster account or similar workflow node.
+
+Phantombuster or similar tools may support member-owned workflow execution, list movement, signal intake, enrichment, or action queues when approved by the member.
+
+SC64 recommends and packages. The member approves and owns execution.
 
 ## Permission Levels
 
@@ -55,10 +73,12 @@ The ideal experience feels like a trusted professional network contact, not anot
 A member might ask:
 
 - What relevant opportunities are showing up in my approved network?
+- What is happening in my network that matters?
+- Are any approved companies hiring quietly?
 - Who changed jobs this week that matters?
 - Which target companies are hiring GTM leaders?
 - Which groups or tools are worth my attention?
-- Who should I reconnect with this week?
+- Who should I reconnect with discreetly?
 - If I got laid off tomorrow, who are my top warm paths?
 - Draft a message, but do not send it yet.
 - Activate my approved network plan.

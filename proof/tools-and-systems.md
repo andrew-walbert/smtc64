@@ -16,7 +16,7 @@ SC64 can support approved member workflows across tools and systems, but does no
 
 ## Possible Workflow Tools
 
-- Phantombuster or similar approved signal ingestion tools
+- Phantombuster or similar approved signal intake and workflow packaging tools
 - Telegram
 - Slack
 - email
@@ -31,4 +31,5 @@ SC64 can support approved member workflows across tools and systems, but does no
 - automation should be governed, logged, and permissioned
 - sensitive contacts require extra confirmation
 - open-market records require review before entering the trusted pool
-
+- SC64 does not position Phantombuster or any similar tool as uncontrolled LinkedIn automation
+- the member owns execution and must approve public-facing action
