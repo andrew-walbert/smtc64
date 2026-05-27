@@ -77,6 +77,26 @@ Distinction:
 - **SC64 Master Node:** future shared company/contact/group/network intelligence system.
 - **Member Nodes:** each member's private personalized version of the broader map.
 
+## Andrew Personal Node Scaffold
+
+The next development focus is building Andrew's Personal Node as the first proof-of-work example of a unique SC64 Member Network Agent.
+
+This repo now contains public-safe scaffolding for:
+
+- Andrew's professional persona
+- target role universe
+- target company universe categories
+- stakeholder/contact category universe
+- network categories
+- groups and communities to monitor
+- proof point categories
+- preferred voice
+- public/private boundaries
+- sample Telegram-style briefing
+- sample activate-my-network plan
+
+GitHub contains the blueprint and public-safe examples only. The actual private node would live in a permissioned system such as Airtable, CRM, Sales Navigator lists, member-owned workflow tools, or another private database.
+
 ## Discretion As A Product Requirement
 
 Members often want to understand their market without publicly looking active.
@@ -110,8 +130,8 @@ SC64 Member Network Agent = map, rank, verify, draft, approve, execute, track.
 - `index.html` contains the static homepage served by GitHub Pages.
 - `CNAME` configures the custom domain.
 - `agent/` contains persona, capabilities, boundaries, sample questions, public knowledge, and Member Network Agent logic.
-- `workflows/` contains workflows for the Member Network Agent, Master Network Node, Member Network DNA, Master-to-Member Node translation, Approved Company Universe, Private Pool Search, Open Market Expansion, member-owned workflow nodes, discreet monitoring, network activation, sourcing, outreach, and interview positioning.
-- `proof/` contains sample member briefings, Telegram-style briefings, activation plans, personal node profiles, signal monitoring examples, Phantombuster workflow packaging, tools and systems, sample outputs, and case study templates.
+- `workflows/` contains workflows for the Member Network Agent, Master Network Node, Member Network DNA, Andrew Personal Node build process, Master-to-Member Node translation, Approved Company Universe, Private Pool Search, Open Market Expansion, member-owned workflow nodes, discreet monitoring, network activation, sourcing, outreach, and interview positioning.
+- `proof/` contains sample member briefings, Andrew Telegram-style briefings, Andrew activation plans, personal node profiles, signal monitoring examples, Phantombuster workflow packaging, tools and systems, sample outputs, and case study templates.
 
 ## Public Safety Standard
 

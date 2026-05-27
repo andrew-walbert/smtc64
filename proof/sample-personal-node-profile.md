@@ -1,28 +1,27 @@
 # Sample Personal Node Profile
 
-This is a public-safe sample of what a member-specific Personal Node profile could look like. It uses Andrew's structure as the first proof-of-work example without exposing private contacts, Sales Navigator exports, or confidential relationship notes.
+This is a public-safe sample of how Andrew's Personal Node could be represented without exposing private contacts, Sales Navigator exports, confidential relationship notes, or unverifiable claims.
 
 ## Node Type
 
 Andrew Personal Node
 
-## Purpose
-
-Represent Andrew's professional persona, career story, target market, proof points, network categories, preferred voice, public/private boundaries, and agent behavior.
-
 ## Public Persona
 
-Digital networking and AI-enabled relationship-building operator spanning GTM recruiting, talent intelligence, sourcing strategy, LinkedIn/network systems, CRM/ATS workflows, and practical AI workflow design.
+Andrew is a digital networking and AI-enabled relationship-building operator spanning GTM recruiting, talent intelligence, sourcing strategy, LinkedIn/network systems, CRM/ATS workflows, and practical AI workflow design.
 
 ## Target Role Categories
 
 - GTM recruiting
 - enterprise sales recruiting
+- senior sourcing strategy
 - talent intelligence
-- sourcing strategy
 - AI-assisted recruiting operations
 - professional network strategy
+- recruiting plus marketing hybrid roles
 - founder-led relationship systems
+
+TODO: confirm Andrew's priority role order.
 
 ## Target Company Categories
 
@@ -31,33 +30,69 @@ Digital networking and AI-enabled relationship-building operator spanning GTM re
 - AI infrastructure and applied AI companies
 - recruiting technology and workflow automation companies
 - founder-led teams where relationship systems matter
+- B2B SaaS companies with complex sales or talent markets
+
+TODO: add Andrew-approved target companies in a private system or public-safe list after review.
+
+## High-Level Network Categories
+
+- GTM talent acquisition leaders
+- sales recruiting leaders
+- sourcing and talent intelligence peers
+- recruiting operations and workflow builders
+- founders and startup operators
+- GTM leaders involved in hiring
+- recruiter/search firm contacts
+- LinkedIn/network strategy peers
 
 ## Proof Point Categories
 
 - recruiting and sourcing execution
+- GTM and enterprise sales recruiting exposure
 - LinkedIn/profile/network strategy
 - relationship mapping
 - CRM/ATS workflow experience
-- GTM and B2B market awareness
-- AI workflow design
+- B2B marketing and sales enablement awareness
+- practical AI workflow design
 
-## Voice
+TODO: add verified examples and metrics only after source review.
 
-Calm, specific, practical, relationship-centered, credible without sounding inflated.
+## Preferred Agent Voice
+
+Calm, specific, practical, relationship-centered, useful, and credible without sounding inflated.
+
+Avoid hype, desperation, fake certainty, generic influencer language, and spammy outreach.
+
+## Sample Member-Agent Questions
+
+- What is the best way to explain Andrew's professional positioning this week?
+- Which target role categories fit Andrew's current proof points?
+- What company categories should Andrew monitor quietly?
+- Which stakeholder categories should Andrew build toward?
+- What relationship action is useful but low-risk?
+- Draft a soft reconnect message, but do not send it.
+- What proof points are missing from Andrew's profile?
+- Activate Andrew's approved network plan for review.
+
+## Sample Outputs
+
+- weekly Telegram-style professional market briefing
+- target role universe map
+- target company category map
+- stakeholder category map
+- proof point inventory
+- discreet relationship action list
+- LinkedIn/profile improvement queue
+- outreach drafts for approval
+- activate-my-network plan
+- public/private safety check
 
 ## Boundaries
 
 - Do not include private contacts in public files.
 - Do not include Sales Navigator exports in GitHub.
 - Do not publish confidential relationship notes.
+- Do not fabricate target companies or private relationship paths.
 - Do not imply uncontrolled automation.
 - Require approval before outreach or public action.
-
-## Agent Rules
-
-- Treat Andrew's public portfolio as proof-of-work.
-- Keep the broader SC64 product direction separate from Andrew's private node.
-- Recommend high-signal actions over volume.
-- Draft in Andrew's voice when requested.
-- Preserve discretion and public-safe language.
 
