@@ -104,6 +104,9 @@ section h2 em{font-style:italic;color:var(--gold);}
 .agent-summary{display:flex;flex-direction:column;gap:18px;}
 .agent-point{border-left:3px solid var(--accent);padding:4px 0 4px 18px;color:#4c5552;font-size:0.95rem;}
 .agent-point strong{display:block;color:var(--ink);font-weight:500;margin-bottom:4px;}
+.agent-doc-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px;}
+.agent-doc-actions .btn{color:var(--ink);}
+.agent-doc-actions .btn-primary{color:#fff;}
 .agent-panel{border:1px solid rgba(23,27,28,0.15);background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 18px 48px rgba(23,27,28,0.12);}
 .agent-topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--ink);color:#fff;padding:16px 18px;border-bottom:1px solid rgba(255,255,255,0.1);}
 .agent-name{font-size:0.78rem;letter-spacing:0.16em;text-transform:uppercase;}
@@ -125,6 +128,10 @@ section h2 em{font-style:italic;color:var(--gold);}
 .agent-proof div{background:#fff;padding:18px;}
 .agent-proof strong{display:block;color:var(--ink);font-weight:500;margin-bottom:5px;}
 .agent-proof span{color:#59625f;font-size:0.84rem;}
+.work-card-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:32px;background:rgba(23,27,28,0.12);border:1px solid rgba(23,27,28,0.12);}
+.work-card{background:#fff;padding:26px 22px;color:#4f5a57;}
+.work-card h3{font-family:'Cormorant Garamond',serif;font-size:1.42rem;font-weight:400;color:var(--ink);margin-bottom:10px;}
+.work-card p{font-size:0.9rem;line-height:1.6;}
 footer{border-top:1px solid var(--border);padding:40px 56px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;}
 .footer-brand{font-family:'Cormorant Garamond',serif;font-size:1rem;letter-spacing:0.1em;color:var(--muted);}
 .footer-links{display:flex;gap:24px;flex-wrap:wrap;}
@@ -141,8 +148,8 @@ footer{border-top:1px solid var(--border);padding:40px 56px;display:flex;align-i
 @keyframes fadeUp{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
 .reveal{opacity:0;transform:translateY(24px);transition:opacity 0.7s ease,transform 0.7s ease;}
 .reveal.visible{opacity:1;transform:translateY(0);}
-@media(max-width:900px){.agent-layout{grid-template-columns:1fr;}.proof-strip,.agent-proof{grid-template-columns:repeat(2,1fr);}.hero h1{font-size:3.7rem;}section h2{font-size:2.55rem;}}
-@media(max-width:640px){nav{padding:16px 24px;}.nav-actions{gap:8px}.btn{padding:9px 16px;font-size:0.72rem}.hero{padding:100px 24px 60px;min-height:92vh;}.hero h1{font-size:2.9rem;}section h2{font-size:2.1rem;}footer{padding:32px 24px;flex-direction:column;align-items:flex-start;}section{padding:64px 24px;}.engagement-wrap,.contact-panel{padding:32px 24px;}.proof-strip,.agent-proof,.agent-prompts{grid-template-columns:1fr;}.agent-screen{padding:18px;}.agent-input-row{grid-template-columns:1fr;}}
+@media(max-width:900px){.agent-layout{grid-template-columns:1fr;}.proof-strip,.agent-proof,.work-card-grid{grid-template-columns:repeat(2,1fr);}.hero h1{font-size:3.7rem;}section h2{font-size:2.55rem;}}
+@media(max-width:640px){nav{padding:16px 24px;}.nav-actions{gap:8px}.btn{padding:9px 16px;font-size:0.72rem}.hero{padding:100px 24px 60px;min-height:92vh;}.hero h1{font-size:2.9rem;}section h2{font-size:2.1rem;}footer{padding:32px 24px;flex-direction:column;align-items:flex-start;}section{padding:64px 24px;}.engagement-wrap,.contact-panel{padding:32px 24px;}.proof-strip,.agent-proof,.agent-prompts,.work-card-grid{grid-template-columns:1fr;}.agent-screen{padding:18px;}.agent-input-row{grid-template-columns:1fr;}}
 </style>
 </head>
 <body>
@@ -207,13 +214,18 @@ footer{border-top:1px solid var(--border);padding:40px 56px;display:flex;align-i
   <div class="agent-inner">
     <div class="section-label reveal">Live Portfolio Concept</div>
     <h2 class="reveal">Andrew's AI Career Agent turns a profile into an <em>interactive talent intelligence system.</em></h2>
-    <p class="lede reveal">The agent is designed to represent Andrew's professional story accurately, explain where he fits, and demonstrate how AI can organize career positioning, market intelligence, and relationship strategy without exposing private network data.</p>
+    <p class="lede reveal">Andrew's AI Career Agent is a living professional portfolio that demonstrates his ability to combine GTM recruiting, talent intelligence, relationship strategy, and AI workflow design into one operating system.</p>
     <div class="agent-layout reveal">
       <div class="agent-summary">
         <div class="agent-point"><strong>It represents Andrew's positioning.</strong>Senior GTM recruiter, sourcing strategist, talent intelligence operator, and AI-enabled relationship-builder for SaaS, AI, cloud, cybersecurity, and enterprise technology companies.</div>
         <div class="agent-point"><strong>It proves the workflow.</strong>Instead of saying Andrew uses AI, the portfolio shows how an agent can synthesize resume evidence, LinkedIn positioning, target roles, company fit, and interview-ready narratives.</div>
         <div class="agent-point"><strong>It stays defensible.</strong>The public version answers from verified professional materials only. It avoids private contacts, confidential records, fake metrics, and exaggerated claims.</div>
-        <div class="agent-point"><strong>It scales into SC64.</strong>The same structure can become a private professional network operating system for members: profile intelligence, market maps, relationship actions, and weekly next steps.</div>
+        <div class="agent-point"><strong>It scales into SC64 discreetly.</strong>The same structure can support private, members-only portfolio and network intelligence work without describing member details or exposing private benefits publicly.</div>
+        <div class="agent-doc-actions">
+          <a class="btn btn-primary" href="https://github.com/andrew-walbert/smtc64/blob/main/agent/persona.md" target="_blank" rel="noopener">View Agent Logic</a>
+          <a class="btn btn-ghost" href="https://github.com/andrew-walbert/smtc64/blob/main/proof/sample-outputs.md" target="_blank" rel="noopener">See Sample Outputs</a>
+          <a class="btn btn-ghost" href="https://github.com/andrew-walbert/smtc64/tree/main/workflows" target="_blank" rel="noopener">Explore Workflow System</a>
+        </div>
       </div>
       <div class="agent-panel" aria-label="Andrew AI Career Agent preview">
         <div class="agent-topbar">
@@ -243,6 +255,13 @@ footer{border-top:1px solid var(--border);padding:40px 56px;display:flex;align-i
       <div><strong>GTM + Enterprise Sales</strong><span>Sales, marketing, revenue, systems engineering, solutions architecture, and GTM leadership recruiting environments.</span></div>
       <div><strong>Talent Intelligence</strong><span>Market maps, target companies, calibrated personas, relationship paths, pipeline visibility, and hiring-manager alignment.</span></div>
       <div><strong>AI Workflow Design</strong><span>Practical use of AI for intake prep, sourcing research, candidate profiles, outreach drafts, documentation, and next-best-action planning.</span></div>
+    </div>
+    <div class="section-label reveal" style="margin-top:58px;">How the Agent Works</div>
+    <div class="work-card-grid reveal">
+      <div class="work-card"><h3>Public Persona</h3><p>A concise, public-safe model of Andrew's professional story, strengths, target environments, voice, and positioning boundaries.</p></div>
+      <div class="work-card"><h3>Talent Intelligence Workflows</h3><p>Repeatable systems for GTM intake, sourcing strategy, target-company mapping, outreach angles, and interview positioning.</p></div>
+      <div class="work-card"><h3>Evidence-Based Answers</h3><p>Responses stay anchored to resume evidence, approved public positioning, and sample outputs rather than private contacts or inflated claims.</p></div>
+      <div class="work-card"><h3>Private Member Extension</h3><p>The public framework can extend into discreet, members-only portfolio and network intelligence work with approval controls.</p></div>
     </div>
   </div>
 </section>
