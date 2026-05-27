@@ -25,9 +25,15 @@ It is not a fake chatbot or private-data system. The public version is intention
 
 - `index.html` contains the static homepage served by GitHub Pages.
 - `CNAME` configures the custom domain.
-- `agent/` contains the public agent logic, persona, capabilities, boundaries, sample questions, and public knowledge base.
-- `workflows/` contains repeatable GTM recruiting, sourcing, market mapping, outreach, and interview-positioning workflows.
-- `proof/` contains sample outputs, tool context, a case study template, and a public-safe market map sample.
+- `agent/` contains the public agent logic, persona, capabilities, boundaries, sample questions, public knowledge base, and private member network agent direction.
+- `workflows/` contains repeatable GTM recruiting, sourcing, market mapping, outreach, private-pool search, and interview-positioning workflows.
+- `proof/` contains sample outputs, member briefing examples, tool context, a case study template, and a public-safe market map sample.
+
+## Member Network Agent Direction
+
+The private SC64 product direction is broader than a career agent. A stronger private category is the SC64 Member Network Agent: a permissioned professional network manager that helps members monitor approved companies, people, groups, tools, roles, recruiters, and relationship signals without turning them into public job seekers.
+
+Public language should describe this carefully. The site can show the operating philosophy, but it should not expose the private member benefits, private data sources, or member-specific relationship intelligence.
 
 ## Public Safety Standard
 
