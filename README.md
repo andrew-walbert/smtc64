@@ -2,6 +2,8 @@
 
 This repository supports [smtc64.com](https://www.smtc64.com), a static GitHub Pages site for Summit Club 64 and its Member Network Agent product direction.
 
+GitHub is the public blueprint, proof-of-work, and documentation layer. It is not the real SC64 Master Network database and should not contain private member data, Sales Navigator exports, private contacts, or confidential relationship notes.
+
 ## What Summit Club 64 Is
 
 Summit Club 64 is a private, members-only professional network intelligence and digital portfolio service.
@@ -26,20 +28,54 @@ Signature principle:
 
 ## What The Master Network Node Is
 
-The Master Network Node is the trusted private layer behind the Member Network Agent.
+The Master Network Node is the future shared SC64 intelligence universe behind member-specific agents.
 
-It sits between:
+It can define and govern:
 
-- LinkedIn Sales Navigator
-- member-approved companies
-- member-approved people
-- trusted groups
-- CRM / Airtable / Google Sheets
-- Phantombuster or similar approved signal intake and workflow packaging tools
-- Telegram / Slack / email delivery
-- human review
+- target companies
+- hiring stakeholders
+- recruiters
+- groups
+- tools
+- signal categories
+- workflows
+- review standards
 
 The AI searches the trusted private layer first before using open-market expansion.
+
+## Master Node, Member Node, Member Agent
+
+SC64 has three related concepts:
+
+- **Master Network Node:** the shared SC64 intelligence universe of companies, stakeholders, recruiters, groups, tools, signal categories, workflows, and review standards.
+- **Member Network Node:** each member-specific private sub-network chosen from the Master Node and shaped by that member's professional persona, resume and work history, strengths, target roles, target companies, approved contacts, groups, preferred discretion level, goals, and boundaries.
+- **Member Network Agent:** the AI interface that monitors, interprets, recommends, drafts, packages, and activates based on that member's unique map.
+
+Every Member Network Agent has its own network DNA.
+
+SC64 starts with a shared Master Network Node, but every Member Network Agent becomes unique through the member's own professional DNA: their experience, strengths, target companies, approved contacts, groups, relationship history, goals, and boundaries. Two members may both care about enterprise sales leadership, but their agents will not recommend the same companies, people, groups, or actions. Each agent is shaped by the member's approved network map and designed to help that member become more visible, useful, and connected in the professional ecosystem where they create the most value.
+
+## Andrew Personal Node
+
+Andrew's Personal Network Agent is the first real example of a unique Member Network Agent.
+
+The next development focus is Andrew's Personal Node:
+
+- Andrew's professional persona
+- Andrew's target companies
+- Andrew's target roles
+- Andrew's proof points
+- Andrew's network categories
+- Andrew's preferred voice
+- Andrew's public/private boundaries
+- Andrew's unique agent rules
+
+Distinction:
+
+- **GitHub:** public site, product docs, proof-of-work, and Codex instructions.
+- **Andrew Personal Node:** Andrew's unique professional portfolio, career story, target companies, relationship map, and agent behavior.
+- **SC64 Master Node:** future shared company/contact/group/network intelligence system.
+- **Member Nodes:** each member's private personalized version of the broader map.
 
 ## Discretion As A Product Requirement
 
@@ -74,8 +110,8 @@ SC64 Member Network Agent = map, rank, verify, draft, approve, execute, track.
 - `index.html` contains the static homepage served by GitHub Pages.
 - `CNAME` configures the custom domain.
 - `agent/` contains persona, capabilities, boundaries, sample questions, public knowledge, and Member Network Agent logic.
-- `workflows/` contains workflows for the Member Network Agent, Master Network Node, Approved Company Universe, Private Pool Search, Open Market Expansion, member-owned workflow nodes, discreet monitoring, network activation, sourcing, outreach, and interview positioning.
-- `proof/` contains sample member briefings, Telegram-style briefings, activation plans, signal monitoring examples, Phantombuster workflow packaging, tools and systems, sample outputs, and case study templates.
+- `workflows/` contains workflows for the Member Network Agent, Master Network Node, Member Network DNA, Master-to-Member Node translation, Approved Company Universe, Private Pool Search, Open Market Expansion, member-owned workflow nodes, discreet monitoring, network activation, sourcing, outreach, and interview positioning.
+- `proof/` contains sample member briefings, Telegram-style briefings, activation plans, personal node profiles, signal monitoring examples, Phantombuster workflow packaging, tools and systems, sample outputs, and case study templates.
 
 ## Public Safety Standard
 

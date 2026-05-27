@@ -10,22 +10,32 @@ The public product direction is the SC64 Member Network Agent: a private AI-powe
 
 ## Master Network Node
 
-The Master Network Node is the trusted private layer between:
+The Master Network Node is the future shared SC64 intelligence universe. It can define and govern:
 
-- LinkedIn Sales Navigator
-- member-approved companies
-- member-approved people
-- trusted groups
-- CRM / Airtable / Google Sheets
-- Phantombuster or similar approved signal intake and workflow packaging tools
-- Telegram / Slack / email delivery
-- human review
+- target companies
+- hiring stakeholders
+- recruiters
+- groups
+- tools
+- signal categories
+- workflows
+- review standards
 
 The AI searches the trusted private layer first before using open-market expansion.
 
-## Andrew Walbert
+GitHub is the public blueprint, proof-of-work, and documentation layer. It is not the real Master Network database and should not contain private member data, Sales Navigator exports, private contacts, or confidential relationship notes.
 
-Andrew Walbert's public proof-of-work portfolio demonstrates the thinking behind the system: GTM recruiting, talent intelligence, sourcing strategy, relationship mapping, LinkedIn/network systems, and practical AI workflow design.
+## Andrew Personal Node
+
+Andrew's Personal Network Agent is the first real example of a unique Member Network Agent.
+
+Andrew's public proof-of-work portfolio demonstrates the thinking behind the system: GTM recruiting, talent intelligence, sourcing strategy, relationship mapping, LinkedIn/network systems, and practical AI workflow design.
+
+The private Andrew Personal Node is Andrew's unique professional portfolio, career story, target companies, relationship map, preferred voice, public/private boundaries, and agent behavior.
+
+## Member Network DNA
+
+Every Member Network Agent has its own network DNA. A Member Network Node is shaped by a member's professional persona, resume and work history, strengths, target roles, target companies, approved contacts, groups, communities, preferred discretion level, goals, and boundaries.
 
 ## Public Safety
 
@@ -33,6 +43,7 @@ Public materials should describe the operating model without exposing:
 
 - member identities
 - private contacts
+- Sales Navigator exports
 - private relationship paths
 - private data sources
 - confidential client details

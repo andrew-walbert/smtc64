@@ -36,4 +36,6 @@ The SC64 Member Network Agent must be permissioned, trust-first, and discreet.
 
 ## Public vs. Private
 
-The public site explains the model. It should not expose private member benefits, private contacts, private data sources, or member-specific relationship intelligence.
+The public site and GitHub repo explain the model. They are the public blueprint, proof-of-work, and documentation layer.
+
+They should not expose private member benefits, Sales Navigator exports, private contacts, private data sources, confidential relationship notes, or member-specific relationship intelligence.

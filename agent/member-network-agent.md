@@ -25,19 +25,48 @@ SC64 helps members stay informed, visible, and connected without looking like th
 
 ## Master Network Node
 
-The Master Network Node is the private, permissioned trust layer behind the member experience.
+The Master Network Node is the future shared SC64 intelligence universe behind member-specific agents.
 
-It can organize approved signals from:
+It can define and govern:
 
-- member-approved companies
-- member-approved people
-- LinkedIn and Sales Navigator research
-- CRM, Sheets, Airtable, or other approved systems
-- trusted groups and communities
-- approved communication channels
-- public market signals that require review
+- target companies
+- hiring stakeholders
+- recruiters
+- groups
+- tools
+- signal categories
+- workflows
+- review standards
 
-The public site should never imply open access to this data. The private layer is permissioned, reviewed, and bounded.
+GitHub is the public blueprint, proof-of-work, and documentation layer. It is not the real SC64 Master Network database and should not contain private member data, Sales Navigator exports, private contacts, or confidential relationship notes.
+
+## Member Network Node
+
+Each Member Network Node is a member-specific private sub-network chosen from the Master Node and shaped by that member's:
+
+- professional persona
+- resume and work history
+- strengths and superpower skills
+- target roles
+- target companies
+- approved contacts
+- groups and communities
+- preferred discretion level
+- goals and boundaries
+
+Every Member Network Agent has its own network DNA.
+
+Two members may both care about enterprise sales leadership, but their agents should not recommend the same companies, people, groups, or actions.
+
+## Member Network Agent
+
+The Member Network Agent is the AI interface that monitors, interprets, recommends, drafts, packages, and activates based on that member's unique map.
+
+## Andrew Personal Node
+
+Andrew's Personal Network Agent is the first real example of a unique Member Network Agent.
+
+Andrew's Personal Node includes Andrew's professional persona, target companies, target roles, proof points, network categories, preferred voice, public/private boundaries, and unique agent rules.
 
 ## Approved Company Universe
 
@@ -85,4 +114,4 @@ A member might ask:
 
 ## Public-Safe Positioning
 
-Public language should stay discreet. The site can describe the operating concept, but should not expose member benefits, private data sources, private contacts, or automation details that could imply uncontrolled outreach.
+Public language should stay discreet. The site can describe the operating concept, but should not expose private member data, Sales Navigator exports, private contacts, confidential relationship notes, or automation details that could imply uncontrolled outreach.
