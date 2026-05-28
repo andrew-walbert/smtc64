@@ -1,0 +1,117 @@
+# SC64 Member Network Agent
+
+The SC64 Member Network Agent is the primary private product direction for Summit Club 64.
+
+The public site demonstrates the operating model. The private member version is designed to help approved members maintain a discreet, useful, and permissioned professional network system.
+
+## Product Category
+
+Private AI-powered professional network manager.
+
+## Core Idea
+
+SC64 members are not treated only as candidates or job seekers. They are professional network nodes with:
+
+- trusted relationships
+- market awareness
+- hiring and sales radar
+- reputation signals
+- peer and recruiter networks
+- AI-supported network operations
+
+The agent helps members stay useful and visible inside the professional networks that create opportunities.
+
+SC64 helps members stay informed, visible, and connected without looking like they are publicly searching, reacting, or forcing outcomes.
+
+## Master Network Node
+
+The Master Network Node is the future shared SC64 intelligence universe behind member-specific agents.
+
+It can define and govern:
+
+- target companies
+- hiring stakeholders
+- recruiters
+- groups
+- tools
+- signal categories
+- workflows
+- review standards
+
+GitHub is the public blueprint, proof-of-work, and documentation layer. It is not the real SC64 Master Network database and should not contain private member data, Sales Navigator exports, private contacts, or confidential relationship notes.
+
+## Member Network Node
+
+Each Member Network Node is a member-specific private sub-network chosen from the Master Node and shaped by that member's:
+
+- professional persona
+- resume and work history
+- strengths and superpower skills
+- target roles
+- target companies
+- approved contacts
+- groups and communities
+- preferred discretion level
+- goals and boundaries
+
+Every Member Network Agent has its own network DNA.
+
+Two members may both care about enterprise sales leadership, but their agents should not recommend the same companies, people, groups, or actions.
+
+## Member Network Agent
+
+The Member Network Agent is the AI interface that monitors, interprets, recommends, drafts, packages, and activates based on that member's unique map.
+
+## Andrew Personal Node
+
+Andrew's Personal Network Agent is the first real example of a unique Member Network Agent.
+
+Andrew's Personal Node includes Andrew's professional persona, target companies, target roles, proof points, network categories, preferred voice, public/private boundaries, and unique agent rules.
+
+## Approved Company Universe
+
+A member may approve a defined company universe, such as 100 companies worth following.
+
+SC64 mirrors those companies into the Master Network Node and monitors them for hiring, leadership moves, tools, groups, people, recruiter activity, and warm-path signals.
+
+Open-market records remain AI-suggested or needs-review until a human reviews them. Company monitoring does not create permission to contact.
+
+## Member-Owned Workflow Node
+
+Members may have their own digital network portfolio and optional execution tools, including a personal Phantombuster account or similar workflow node.
+
+Phantombuster or similar tools may support member-owned workflow execution, list movement, signal intake, enrichment, or action queues when approved by the member.
+
+SC64 recommends and packages. The member approves and owns execution.
+
+## Permission Levels
+
+The agent should operate with clear authority levels:
+
+- Monitor: watch approved sources and signals
+- Recommend: suggest relevant people, companies, tools, groups, or actions
+- Draft: prepare messages, notes, or briefing language
+- Package workflow: prepare ranked lists, exports, queues, and delivery-ready briefings
+- Engage: act only with explicit approval
+- Escalate: pause and ask for human review when sensitive
+
+## Member Experience
+
+The ideal experience feels like a trusted professional network contact, not another dashboard.
+
+A member might ask:
+
+- What relevant opportunities are showing up in my approved network?
+- What is happening in my network that matters?
+- Are any approved companies hiring quietly?
+- Who changed jobs this week that matters?
+- Which target companies are hiring GTM leaders?
+- Which groups or tools are worth my attention?
+- Who should I reconnect with discreetly?
+- If I got laid off tomorrow, who are my top warm paths?
+- Draft a message, but do not send it yet.
+- Activate my approved network plan.
+
+## Public-Safe Positioning
+
+Public language should stay discreet. The site can describe the operating concept, but should not expose private member data, Sales Navigator exports, private contacts, confidential relationship notes, or automation details that could imply uncontrolled outreach.
