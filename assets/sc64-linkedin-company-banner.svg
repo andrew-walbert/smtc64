@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Summit Club 64 LinkedIn company banner</title>
+  <desc id="desc">A premium abstract network and summit background for Summit Club 64.</desc>
+  <rect width="4200" height="700" fill="#7fb8cf"/>
+
+  <defs>
+    <linearGradient id="navyWash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071f31" stop-opacity="0.12"/>
+      <stop offset="0.58" stop-color="#071f31" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#071f31" stop-opacity="0.52"/>
+    </linearGradient>
+    <radialGradient id="quietGlow" cx="74%" cy="42%" r="48%">
+      <stop offset="0" stop-color="#f8f4e6" stop-opacity="0.22"/>
+      <stop offset="0.48" stop-color="#86c2d9" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#86c2d9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="4200" height="700" fill="url(#navyWash)"/>
+  <rect width="4200" height="700" fill="url(#quietGlow)"/>
+
+  <!-- Left third intentionally calm for LinkedIn overlays. -->
+  <g opacity="0.16" stroke="#f8f4e6" stroke-width="2" fill="none">
+    <path d="M0 574 C360 520 650 548 1030 498"/>
+    <path d="M0 612 C450 590 830 620 1240 548"/>
+  </g>
+
+  <!-- Subtle summit horizon -->
+  <g opacity="0.92">
+    <polygon points="1320,602 1710,340 1990,602" fill="#071f31" opacity="0.34"/>
+    <polygon points="1668,602 2120,230 2585,602" fill="#071f31" opacity="0.48"/>
+    <polygon points="2250,602 2760,300 3420,602" fill="#071f31" opacity="0.38"/>
+    <polygon points="1884,602 2120,230 2238,406 2032,602" fill="#f8f4e6" opacity="0.62"/>
+    <polygon points="2052,442 2186,325 2136,442" fill="#ffffff" opacity="0.70"/>
+    <polygon points="2660,602 2918,422 3420,602" fill="#86c2d9" opacity="0.32"/>
+  </g>
+
+  <!-- Network signal field -->
+  <g stroke="#d9eef3" stroke-linecap="round" stroke-linejoin="round" fill="#f8f4e6">
+    <g opacity="0.60" stroke-width="3">
+      <path d="M1518 438 L1712 352 L1940 382 L2168 310 L2412 378 L2674 324 L2928 376 L3180 320 L3484 372"/>
+      <path d="M1640 510 L1940 382 L2248 484 L2530 430 L2830 500 L3180 320"/>
+      <path d="M2168 310 L2248 484 L2412 378 L2530 430 L2674 324 L2830 500"/>
+      <path d="M2928 376 L3068 492 L3484 372 L3718 476"/>
+    </g>
+    <g opacity="0.90" stroke-width="2">
+      <circle cx="1518" cy="438" r="9"/>
+      <circle cx="1712" cy="352" r="10"/>
+      <circle cx="1940" cy="382" r="8"/>
+      <circle cx="2168" cy="310" r="11"/>
+      <circle cx="2248" cy="484" r="8"/>
+      <circle cx="2412" cy="378" r="9"/>
+      <circle cx="2530" cy="430" r="7"/>
+      <circle cx="2674" cy="324" r="10"/>
+      <circle cx="2830" cy="500" r="8"/>
+      <circle cx="2928" cy="376" r="8"/>
+      <circle cx="3068" cy="492" r="7"/>
+      <circle cx="3180" cy="320" r="10"/>
+      <circle cx="3484" cy="372" r="9"/>
+      <circle cx="3718" cy="476" r="7"/>
+    </g>
+  </g>
+
+  <!-- Quiet snow/star motif -->
+  <g transform="translate(3540 168) scale(0.82)" opacity="0.56">
+    <path
+      d="M0,-68 L15,-18 L66,-41 L34,0 L66,41 L15,18 L0,68 L-15,18 L-66,41 L-34,0 L-66,-41 L-15,-18 Z"
+      fill="#f8f4e6"
+      stroke="#d9eef3"
+      stroke-width="5"
+      stroke-linejoin="miter"/>
+  </g>
+
+  <rect x="0" y="0" width="4200" height="700" fill="none" stroke="#d9eef3" stroke-opacity="0.18" stroke-width="12"/>
+</svg>

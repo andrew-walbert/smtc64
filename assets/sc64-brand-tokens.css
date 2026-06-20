@@ -1,0 +1,74 @@
+:root {
+  --sc64-sky: #7fb8cf;
+  --sc64-sky-light: #d9eef3;
+  --sc64-ice: #86c2d9;
+  --sc64-navy: #071f31;
+  --sc64-navy-2: #0c2d43;
+  --sc64-cream: #f8f4e6;
+  --sc64-white: #ffffff;
+  --sc64-border: rgba(217, 238, 243, 0.42);
+  --sc64-shadow: 0 18px 48px rgba(7, 31, 49, 0.18);
+  --sc64-radius: 8px;
+}
+
+body {
+  background: var(--sc64-sky);
+  color: var(--sc64-navy);
+}
+
+.sc64-page {
+  background:
+    radial-gradient(circle at 72% 12%, rgba(248, 244, 230, 0.24), transparent 28rem),
+    linear-gradient(135deg, var(--sc64-sky) 0%, #6da9c1 46%, var(--sc64-navy-2) 100%);
+}
+
+.sc64-nav,
+.sc64-panel {
+  background: rgba(7, 31, 49, 0.88);
+  border: 1px solid var(--sc64-border);
+  color: var(--sc64-white);
+}
+
+.sc64-logo {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.sc64-button-primary {
+  background: var(--sc64-navy);
+  border: 1px solid var(--sc64-sky-light);
+  border-radius: var(--sc64-radius);
+  color: var(--sc64-white);
+  font-weight: 800;
+}
+
+.sc64-button-secondary {
+  background: var(--sc64-cream);
+  border: 1px solid rgba(7, 31, 49, 0.16);
+  border-radius: var(--sc64-radius);
+  color: var(--sc64-navy);
+  font-weight: 800;
+}
+
+.sc64-hero {
+  color: var(--sc64-white);
+}
+
+.sc64-hero h1,
+.sc64-heading {
+  color: var(--sc64-white);
+  letter-spacing: 0;
+}
+
+.sc64-muted {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.sc64-card {
+  background: rgba(248, 244, 230, 0.94);
+  border: 1px solid rgba(7, 31, 49, 0.10);
+  border-radius: var(--sc64-radius);
+  box-shadow: var(--sc64-shadow);
+  color: var(--sc64-navy);
+}
