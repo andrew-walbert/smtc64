@@ -1,5 +1,13 @@
 # Summit Club 64 / SC64 Member Network Agent
 
+## Current public positioning — 2026-10-20
+
+Summit Club 64 is a private, members-only community for independent sourcing and recruiting professionals helping one another and the professional talent networks they serve.
+
+The homepage is deliberately a brief public introduction. It must agree with the company LinkedIn page's independent/embedded recruiting community description and Andrew's recruiting profile without disclosing member resources, private workflows, candidate data, or client relationships. Do not advertise specific insurance, discounts, pooled licenses, employment, or benefit entitlements without confirmed arrangements and terms. The current public site contains no private member portal or database; member access requests go through the existing contact channel.
+
+This dated direction supersedes the older executive-member-first public marketing framing below. The remaining material is retained as historical product context, not a claim that those services are currently available. Keep the existing GitHub Pages host, domain, and brand design.
+
 This repository supports [smtc64.com](https://www.smtc64.com), a static GitHub Pages site for Summit Club 64 and its Member Network Agent product direction.
 
 GitHub is the public blueprint, proof-of-work, and documentation layer. It is not the real SC64 Master Network database and should not contain private member data, Sales Navigator exports, private contacts, or confidential relationship notes.
