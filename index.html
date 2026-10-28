@@ -196,7 +196,7 @@ footer{border-top:1px solid var(--border);padding:40px 56px;display:flex;align-i
   <div class="nav-actions">
     <button class="btn btn-ghost" onclick="openModal('login-modal')">Member Login</button>
     <button class="btn btn-ghost" onclick="document.getElementById('andrew-agent').scrollIntoView({behavior:'smooth'})">The Club</button>
-    <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Request Membership</button>
+    <a class="btn btn-primary" href="/apply.html">Apply for Membership</a>
   </div>
 </nav>
 
@@ -211,8 +211,8 @@ footer{border-top:1px solid var(--border);padding:40px 56px;display:flex;align-i
     <h1>Career direction. <em>Network intelligence.</em></h1>
     <p class="hero-sub">Summit Club 64 is a private career club for professionals building their next chapter. Members access Professional Network Intelligence, Career Mapping, and a Managed Professional Network—supported by enterprise technology and personalized, member-led support.</p>
     <div class="hero-ctas">
-      <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Request Membership</button>
-      <button class="btn btn-ghost" onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">Members Only</button>
+      <a class="btn btn-primary" href="/apply.html">Apply for Membership</a>
+      <button class="btn btn-ghost" onclick="openModal('login-modal')">Member Portal</button>
     </div>
     <div class="proof-strip">
       <div class="proof-item"><strong>Referral-led</strong><span>Introduced by a current member</span></div>
@@ -265,11 +265,11 @@ footer{border-top:1px solid var(--border);padding:40px 56px;display:flex;align-i
 <div class="forms-section" id="contact">
   <div class="forms-inner">
     <div class="section-label reveal">Membership</div>
-    <h2 class="reveal" style="margin-bottom:32px;">Membership starts with <em>a private conversation.</em></h2>
+    <h2 class="reveal" style="margin-bottom:32px;">Apply for membership.</h2>
     <div class="contact-panel reveal">
-      <p>Summit Club 64 serves ambitious professionals building their next chapter. Membership is selective and requires a current-member referral and a strong Career IQ assessment. Current members may contact us for their private access link.</p>
+      <p>Summit Club 64 serves ambitious professionals building their next chapter. Membership is selective and requires a current-member referral and a strong Career IQ assessment. Start with the application form.</p>
       <div class="contact-actions">
-        <a class="btn btn-primary" href="mailto:aew@smtc64.com?subject=Summit%20Club%2064%20Membership%20Conversation">Ask About Membership</a>
+        <a class="btn btn-primary" href="/apply.html">Apply for Membership</a>
         <a class="btn btn-ghost" href="https://www.linkedin.com/company/sc64/" target="_blank" rel="noopener">LinkedIn Company Page</a>
         <a class="btn btn-gold" href="tel:7253336460">Call 725-333-6460</a>
       </div>
@@ -296,9 +296,8 @@ footer{border-top:1px solid var(--border);padding:40px 56px;display:flex;align-i
 <div class="modal-overlay" id="login-modal" role="dialog" aria-modal="true" aria-labelledby="login-modal-title">
   <div class="modal">
     <button class="modal-close" onclick="closeModal('login-modal')" aria-label="Close">&times;</button>
-    <h2 id="login-modal-title">Member Access</h2>
-    <p class="modal-sub">Member workspaces are private and invitation-based. If you need access, email Summit Club 64 and we will send the correct link.</p>
-    <a class="btn btn-primary" style="width:100%;text-align:center;" href="mailto:aew@smtc64.com?subject=Member%20Workspace%20Access">Request Access</a>
+    <h2 id="login-modal-title">Member Portal</h2>
+    <p class="modal-sub">Member login is being connected to the secure workspace. Existing members can reach us at <a href="mailto:aew@smtc64.com">aew@smtc64.com</a> for access while setup is completed.</p>
   </div>
 </div>
 
