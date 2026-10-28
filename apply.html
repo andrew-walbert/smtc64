@@ -12,32 +12,85 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
-:root{--sky:#7fb8cf;--bg:#071f31;--bg2:#0c2d43;--border:rgba(217,238,243,.14);--text:#fff;--muted:rgba(255,255,255,.76);--gold:#f8f4e6;--ink:#071f31}
-*{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:'DM Sans',system-ui,sans-serif;color:var(--text);background:radial-gradient(circle at 18% 4%,rgba(127,184,207,.25),transparent 28rem),linear-gradient(135deg,var(--bg),var(--bg2) 52%,#061726);line-height:1.65}
+:root{--sky:#7fb8cf;--sky-light:#d9eef3;--bg:#071f31;--bg2:#0c2d43;--surface:rgba(12,45,67,.78);--border:rgba(217,238,243,.17);--border-strong:rgba(217,238,243,.36);--text:#fff;--muted:rgba(255,255,255,.74);--gold:#f8f4e6;--ink:#071f31}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;font-family:'DM Sans',system-ui,sans-serif;color:var(--text);background:radial-gradient(circle at 18% 4%,rgba(127,184,207,.25),transparent 28rem),linear-gradient(135deg,var(--bg),var(--bg2) 52%,#061726);line-height:1.65}
 nav{display:flex;align-items:center;justify-content:space-between;padding:14px clamp(20px,5vw,56px);background:rgba(7,31,49,.9);border-bottom:1px solid var(--border)}
 .brand{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;font-size:.78rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase}
 .brand img{width:50px;height:50px;object-fit:contain}
 .back{color:#d9eef3;text-decoration:none;font-size:.82rem;letter-spacing:.05em}
-main{max-width:980px;margin:0 auto;padding:72px 24px 100px}
-.eyebrow{font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;color:#d9eef3}
-h1{font:300 clamp(2.7rem,6vw,4.5rem)/1.08 'Cormorant Garamond',serif;margin:16px 0}
-.intro{max-width:720px;color:var(--muted);margin:0 0 34px}
-.form-frame{background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 18px 48px rgba(0,0,0,.25)}
-iframe{display:block;width:100%;height:1250px;border:0}
-.note{font-size:.8rem;color:var(--muted);margin:18px 2px}
+main{max-width:980px;margin:0 auto;padding:66px 24px 88px}
+.eyebrow{font-size:.7rem;letter-spacing:.24em;text-transform:uppercase;color:var(--sky-light)}
+h1{font:300 clamp(2.9rem,6vw,4.4rem)/1.04 'Cormorant Garamond',serif;margin:14px 0 14px}
+.intro{max-width:700px;color:var(--muted);margin:0 0 24px;font-size:1rem}
+.direct-contact{margin:0 0 30px;color:var(--muted);font-size:.88rem}
+a{color:var(--sky-light)}
+.form-shell{padding:clamp(24px,4vw,42px);border:1px solid var(--border);border-radius:10px;background:var(--surface);box-shadow:0 18px 48px rgba(0,0,0,.22)}
+.form-heading{display:flex;justify-content:space-between;gap:24px;align-items:flex-start;padding-bottom:22px;margin-bottom:26px;border-bottom:1px solid var(--border)}
+.form-heading h2{font:400 1.65rem/1.15 'Cormorant Garamond',serif;margin:0 0 7px}
+.form-heading p{margin:0;color:var(--muted);font-size:.86rem}
+.form-tag{white-space:nowrap;color:var(--sky-light);font-size:.67rem;letter-spacing:.16em;text-transform:uppercase;padding-top:5px}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:20px 22px}
+.field{display:flex;flex-direction:column;gap:7px}
+.field-full{grid-column:1/-1}
+label{font-size:.82rem;color:rgba(255,255,255,.9);font-weight:500}
+input,textarea{width:100%;border:1px solid var(--border-strong);border-radius:6px;background:rgba(4,20,32,.42);color:var(--text);font:400 .95rem 'DM Sans',system-ui,sans-serif;padding:12px 14px;outline:none;transition:border-color .18s,background .18s}
+input{height:48px}
+textarea{min-height:128px;resize:vertical}
+input::placeholder,textarea::placeholder{color:rgba(255,255,255,.43)}
+input:focus,textarea:focus{border-color:var(--sky);background:rgba(4,20,32,.66);box-shadow:0 0 0 3px rgba(127,184,207,.12)}
+.form-note{margin:22px 0 20px;color:var(--muted);font-size:.78rem}
+.actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.submit{appearance:none;border:0;border-radius:7px;background:var(--gold);color:var(--ink);font:700 .78rem 'DM Sans',sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:14px 24px;cursor:pointer}
+.submit:hover{background:var(--sky-light)}
+.submit:disabled{opacity:.7;cursor:wait}
+.required-note{color:var(--muted);font-size:.76rem}
+.success{padding:28px;border:1px solid rgba(127,184,207,.48);border-radius:8px;background:rgba(127,184,207,.09)}
+.success h2{font:400 1.8rem 'Cormorant Garamond',serif;margin:0 0 8px}
+.success p{margin:0;color:var(--muted)}
 footer{border-top:1px solid var(--border);padding:24px;text-align:center;color:var(--muted);font-size:.78rem}
-@media(max-width:640px){main{padding:48px 14px 72px}.back{font-size:.7rem}iframe{height:1450px}}
+@media(max-width:650px){main{padding:46px 16px 64px}.fields{grid-template-columns:1fr;gap:16px}.field-full{grid-column:auto}.form-heading{display:block}.form-tag{margin-top:12px}.actions{align-items:flex-start}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 </style>
 </head>
 <body>
-<nav><a class="brand" href="/"><img src="/assets/sc64-logo.svg" alt=""><span>Summit Club 64</span></a><a class="back" href="/">Back to Summit Club 64</a></nav>
+<nav>
+<a class="brand" href="/"><img src="/assets/sc64-logo.svg" alt=""><span>Summit Club 64</span></a>
+<a class="back" href="/">Back to home</a>
+</nav>
 <main>
 <div class="eyebrow">Membership</div>
 <h1>Apply for membership.</h1>
-<p class="intro">Summit Club 64 is a members-only career club. Applications are referral-led and reviewed for fit, including a Career IQ assessment. Complete the form below to introduce yourself and share what you are working toward. Questions? Contact <a href="mailto:aew@smtc64.com" style="color:#d9eef3">aew@smtc64.com</a>.</p>
-<div class="form-frame"><iframe title="Summit Club 64 membership application" src="https://docs.google.com/forms/d/e/1FAIpQLSd7Qb0LpAhAad7cScQeC1XGQVvBxGkirxmBcb_JIgCHwkKNjw/viewform?embedded=true" loading="lazy">Loading…</iframe></div>
-<p class="note">Please do not include confidential or sensitive personal information in your application.</p>
+<p class="intro">Summit Club 64 is a members-only career club. Applications are referral-led and reviewed for fit, including a Career IQ assessment. Share a few details about your next career chapter.</p>
+<p class="direct-contact">Questions? Contact <a href="mailto:aew@smtc64.com">aew@smtc64.com</a>.</p>
+<section class="form-shell" aria-labelledby="form-title">
+<div class="form-heading">
+<div><h2 id="form-title">Membership application</h2><p>Complete each field to submit your application.</p></div>
+<div class="form-tag">Referral-led · Career IQ assessed</div>
+</div>
+<form id="membership-application" action="https://docs.google.com/forms/d/e/1FAIpQLSd7Qb0LpAhAad7cScQeC1XGQVvBxGkirxmBcb_JIgCHwkKNjw/formResponse" method="post" target="sc64-form-response" accept-charset="UTF-8">
+<input type="hidden" name="fvv" value="1">
+<input type="hidden" name="pageHistory" value="0">
+<input type="hidden" name="fbzx" value="-7647185935592176860">
+<input type="hidden" name="submissionTimestamp" value="-1">
+<div class="fields">
+<div class="field"><label for="full-name">Full name <span aria-hidden="true">*</span></label><input id="full-name" name="entry.420807348" type="text" autocomplete="name" placeholder="Your name" required></div>
+<div class="field"><label for="email">Email address <span aria-hidden="true">*</span></label><input id="email" name="entry.981338101" type="email" autocomplete="email" placeholder="you@example.com" required></div>
+<div class="field"><label for="referrer">Current member referring you <span aria-hidden="true">*</span></label><input id="referrer" name="entry.96905086" type="text" placeholder="Member name" required></div>
+<div class="field"><label for="role">Current role and organization <span aria-hidden="true">*</span></label><input id="role" name="entry.2045488667" type="text" autocomplete="organization-title" placeholder="Role · Organization" required></div>
+<div class="field field-full"><label for="career-goal">What are you working toward next in your career? <span aria-hidden="true">*</span></label><textarea id="career-goal" name="entry.1575873455" placeholder="A short overview is enough." required></textarea></div>
+</div>
+<p class="form-note">Your application will be reviewed for membership fit. Please do not include confidential or sensitive personal information.</p>
+<div class="actions"><button class="submit" id="submit-button" type="submit">Submit application</button><span class="required-note">* Required</span></div>
+</form>
+<div class="success" id="submission-success" role="status" tabindex="-1" hidden><h2>Application received.</h2><p>Thank you for applying to Summit Club 64. We’ll review your application and follow up at the email address you provided.</p></div>
+</section>
 </main>
-<footer>Summit Club 64 · Boulder, Colorado · <a href="mailto:aew@smtc64.com" style="color:#d9eef3">aew@smtc64.com</a></footer>
+<iframe name="sc64-form-response" id="sc64-form-response" title="Application submission response" hidden></iframe>
+<script>
+(()=>{const form=document.getElementById('membership-application');const frame=document.getElementById('sc64-form-response');const button=document.getElementById('submit-button');const success=document.getElementById('submission-success');let pending=false;form.addEventListener('submit',()=>{pending=true;button.disabled=true;button.textContent='Submitting…';});frame.addEventListener('load',()=>{if(!pending)return;pending=false;form.hidden=true;success.hidden=false;success.focus();});})();
+</script>
+<footer>Summit Club 64 · Boulder, Colorado · <a href="mailto:aew@smtc64.com">aew@smtc64.com</a></footer>
 </body>
 </html>
