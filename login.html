@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Member Login | Summit Club 64</title>
+<meta name="description" content="Sign in to your Summit Club 64 member workspace.">
+<meta name="theme-color" content="#071f31">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/sc64-favicon-32.png">
+<link rel="preload" href="/assets/sc64-logo.svg" as="image" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--sky:#7fb8cf;--bg:#071f31;--bg2:#0c2d43;--border:rgba(217,238,243,.14);--text:#fff;--muted:rgba(255,255,255,.76);--gold:#f8f4e6;--ink:#071f31}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:'DM Sans',system-ui,sans-serif;color:var(--text);background:radial-gradient(circle at 18% 4%,rgba(127,184,207,.25),transparent 28rem),linear-gradient(135deg,var(--bg),var(--bg2) 52%,#061726);line-height:1.65;display:flex;flex-direction:column}
+nav{display:flex;align-items:center;justify-content:space-between;padding:14px clamp(20px,5vw,56px);background:rgba(7,31,49,.9);border-bottom:1px solid var(--border)}
+.brand{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;font-size:.78rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase}
+.brand img{width:50px;height:50px;object-fit:contain}
+.back{color:#d9eef3;text-decoration:none;font-size:.82rem;letter-spacing:.05em}
+main{width:min(560px,calc(100% - 32px));margin:auto;padding:70px 0}
+.eyebrow{font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;color:#d9eef3;text-align:center}
+h1{font:300 clamp(2.7rem,6vw,4rem)/1.08 'Cormorant Garamond',serif;text-align:center;margin:14px 0}
+.intro{text-align:center;color:var(--muted);margin:0 auto 28px;max-width:470px}
+.card{padding:36px;border:1px solid var(--border);border-radius:10px;background:rgba(12,45,67,.86);box-shadow:0 18px 48px rgba(0,0,0,.2);text-align:center}
+.card h2{font:400 1.55rem 'Cormorant Garamond',serif;margin:0 0 10px}
+.card p{color:var(--muted);font-size:.92rem;margin:0 0 24px}
+.btn{display:inline-block;padding:13px 22px;border-radius:8px;text-decoration:none;text-transform:uppercase;letter-spacing:.08em;font-size:.78rem;font-weight:700}
+.btn-primary{background:var(--gold);color:var(--ink)}
+.btn-primary:hover{background:#d9eef3}
+.small{font-size:.78rem!important;margin:18px 0 0!important}
+.small a,.contact a{color:#d9eef3}
+.contact{text-align:center;margin-top:22px;color:var(--muted);font-size:.85rem}
+footer{border-top:1px solid var(--border);padding:22px;text-align:center;color:var(--muted);font-size:.78rem}
+</style>
+</head>
+<body>
+<nav><a class="brand" href="/"><img src="/assets/sc64-logo.svg" alt=""><span>Summit Club 64</span></a><a class="back" href="/">Back to home</a></nav>
+<main>
+<div class="eyebrow">Members</div>
+<h1>Member sign in.</h1>
+<p class="intro">Open your private Summit Club 64 workspace.</p>
+<section class="card" aria-labelledby="login-title">
+<h2 id="login-title">Sign in to your workspace</h2>
+<p>Use the Google account invited to your member workspace. Your workspace is available only to the account it was shared with.</p>
+<a class="btn btn-primary" href="https://drive.google.com/drive/my-drive">Continue to member workspace</a>
+<p class="small">Google will ask you to sign in if needed. Summit Club 64 does not collect or store your password.</p>
+</section>
+<p class="contact">Need an invitation or help signing in? Email Andrew at <a href="mailto:aew@smtc64.com">aew@smtc64.com</a>.</p>
+</main>
+<footer>Summit Club 64 · Boulder, Colorado</footer>
+</body>
+</html>
