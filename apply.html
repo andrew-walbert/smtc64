@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Membership Application | Summit Club 64</title>
-<meta name="description" content="Apply for membership at Summit Club 64, a private career club for professional growth.">
+<title>Apply for Membership | Summit Club 64</title>
+<meta name="description" content="Apply to Summit Club 64, a private network and career service for U.S. technology leaders, founders, and operators.">
 <meta name="theme-color" content="#071f31">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/sc64-favicon-32.png">
 <link rel="preload" href="/assets/sc64-logo.svg" as="image" type="image/svg+xml">
@@ -62,12 +62,12 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;color:v
 <main>
 <div class="eyebrow">Membership</div>
 <h1>Apply for membership.</h1>
-<p class="intro">Summit Club 64 is a members-only career club. Applications are referral-led and reviewed for fit, including a Career IQ assessment. Share a few details about your next career chapter.</p>
+<p class="intro">Summit Club 64 is a private, members-only career and professional-network service for U.S. technology leaders, founders, and operators. A current-member referral is required. Share your current role and what you are working toward.</p>
 <p class="direct-contact">Questions? Contact <a href="mailto:aew@smtc64.com">aew@smtc64.com</a>.</p>
 <section class="form-shell" aria-labelledby="form-title">
 <div class="form-heading">
-<div><h2 id="form-title">Membership application</h2><p>Complete each field to submit your application.</p></div>
-<div class="form-tag">Referral-led · Career IQ assessed</div>
+<div><h2 id="form-title">Membership application</h2><p>Complete each field; all fields are required.</p></div>
+<div class="form-tag">Member referral required · Career IQ assessment</div>
 </div>
 <form id="membership-application" action="https://docs.google.com/forms/d/e/1FAIpQLSd7Qb0LpAhAad7cScQeC1XGQVvBxGkirxmBcb_JIgCHwkKNjw/formResponse" method="post" target="sc64-form-response" accept-charset="UTF-8">
 <input type="hidden" name="fvv" value="1">
@@ -81,7 +81,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;color:v
 <div class="field"><label for="role">Current role and organization <span aria-hidden="true">*</span></label><input id="role" name="entry.2045488667" type="text" autocomplete="organization-title" placeholder="Role · Organization" required></div>
 <div class="field field-full"><label for="career-goal">What are you working toward next in your career? <span aria-hidden="true">*</span></label><textarea id="career-goal" name="entry.1575873455" placeholder="A short overview is enough." required></textarea></div>
 </div>
-<p class="form-note">Your application will be reviewed for membership fit. Please do not include confidential or sensitive personal information.</p>
+<p class="form-note">After reviewing your application and referral, selected applicants are invited to a Career IQ assessment covering career direction, experience, goals, and professional-network fit. Do not include confidential or sensitive personal information. See the <a href="/privacy.html">privacy notice</a> for how application details are used.</p>
 <div class="actions"><button class="submit" id="submit-button" type="submit">Submit application</button><span class="required-note">* Required</span></div>
 </form>
 <div class="success" id="submission-success" role="status" tabindex="-1" hidden><h2>Application received.</h2><p>Thank you for applying to Summit Club 64. We’ll review your application and follow up at the email address you provided.</p></div>
@@ -91,6 +91,6 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;color:v
 <script>
 (()=>{const form=document.getElementById('membership-application');const frame=document.getElementById('sc64-form-response');const button=document.getElementById('submit-button');const success=document.getElementById('submission-success');let pending=false;form.addEventListener('submit',()=>{pending=true;button.disabled=true;button.textContent='Submitting…';});frame.addEventListener('load',()=>{if(!pending)return;pending=false;form.hidden=true;success.hidden=false;success.focus();});})();
 </script>
-<footer>Summit Club 64 · Boulder, Colorado · <a href="mailto:aew@smtc64.com">aew@smtc64.com</a></footer>
+<footer>Summit Club 64 · Boulder, Colorado · <a href="mailto:aew@smtc64.com">aew@smtc64.com</a> · <a href="/privacy.html">Privacy</a></footer>
 </body>
 </html>
