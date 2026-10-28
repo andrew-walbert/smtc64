@@ -60,6 +60,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
 .nav-actions{display:flex;gap:12px;align-items:center;}
 .btn{display:inline-block;padding:10px 24px;border-radius:8px;font-size:0.8rem;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;cursor:pointer;border:none;text-decoration:none;transition:all 0.2s ease;font-family:'DM Sans',sans-serif;}
 .btn-ghost{background:transparent;border:1px solid var(--border-hover);color:var(--muted);}
+.member-login{background:transparent;border:1px solid var(--border-hover);color:var(--muted);}
+.member-login:hover{border-color:var(--sky-light);color:var(--sky-light);}
 .btn-ghost:hover{border-color:var(--sky-light);color:var(--sky-light);}
 .btn-primary{background:var(--gold);color:var(--ink);}
 .btn-primary:hover{background:var(--sky-light);}
@@ -194,7 +196,7 @@ footer{border-top:1px solid var(--border);padding:40px 56px;display:flex;align-i
     <span class="nav-logo-text">Summit Club 64</span>
   </a>
   <div class="nav-actions">
-    <a class="btn btn-ghost" href="/login.html">Member Login</a>
+    <a class="btn member-login" href="/login.html">Member Login</a>
     <button class="btn btn-ghost" onclick="document.getElementById('andrew-agent').scrollIntoView({behavior:'smooth'})">The Club</button>
   </div>
 </nav>
